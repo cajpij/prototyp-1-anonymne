@@ -1,8 +1,8 @@
-# Prusa e-shop — search results prototype
+# Prototype 1
 
-Interactive, data-driven prototype of the Prusa e-shop search results page. Used for usability testing — moderator picks a real query, participant sees it as a normal search result page.
+Interactive, data-driven prototype of an e-shop search results page. Used for usability testing — moderator picks a real query, participant sees it as a normal search result page.
 
-Live: <https://cajpij.github.io/prusa-eshop-prototype/> (once GitHub Pages is enabled)
+Live: <https://cajpij.github.io/prototyp-1-anonymne/> (once GitHub Pages is enabled)
 
 ## Run locally
 
@@ -16,34 +16,13 @@ No build step. Static HTML/CSS/JS.
 ## How it works
 
 - `index.html` — page structure
-- `styles.css` — Prusa DS design tokens (colors / typography / spacing / shadows pulled 1:1 from the Figma file)
+- `styles.css` — design tokens (colors / typography / spacing / shadows)
 - `app.js` — data-driven rendering, URL query (`?q=…`), moderator panel
 - `data.json` — search result data
 
 ## Adding a new test query
 
 Append a new entry under `queries.<key>` in `data.json`. See the `_schema` block at the top of the file for the shape. Each query feeds the Highlighted block, Goods grid, Articles & Support list, Blogs, and the four sidebar sections.
-
-Example:
-
-```json
-"queries": {
-  "drybox": {
-    "totalResults": 18,
-    "tabs": { "all": 18, "products": 15, "articles": 2, "blog": 1, "models": 0 },
-    "highlighted": { "title": "...", "description": "...", "badges": [...], "price": "..." },
-    "goods": [ { "name": "...", "price": "CZK 779", "stock": "low", "stockLabel": "Estimated leadtime 6 weeks" } ],
-    "articles": [ { "title": "...", "description": "...", "badges": [...] } ],
-    "blog": [...],
-    "sidebar": {
-      "popularCategories": [...],
-      "trendingSearches": [...],
-      "usefulLinks": [...],
-      "topics": [...]
-    }
-  }
-}
-```
 
 If a query isn't in `data.json`, the page falls back to `default` (placeholder lorem ipsum).
 
