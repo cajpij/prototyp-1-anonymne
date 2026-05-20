@@ -2,7 +2,7 @@
 
 Interactive, data-driven prototype of an e-shop search results page. Used for usability testing — moderator picks a real query, participant sees it as a normal search result page.
 
-Live: <https://cajpij.github.io/prototyp-1-anonymne/> (once GitHub Pages is enabled)
+Live: <https://pijcaj.github.io/prototyp-1-anonymne/> (once GitHub Pages is enabled)
 
 ## Run locally
 
