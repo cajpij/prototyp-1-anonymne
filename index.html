@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Prusa — Search results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Promo bar -->
+  <div class="promo">
+    Save <strong>€100</strong> on Original Prusa CORE One+ during the launch sale!
+    <a href="#" class="promo-link">Shop now →</a>
+    <button class="promo-close" aria-label="Dismiss">×</button>
+  </div>
+
+  <!-- Top navigation -->
+  <header class="topnav" id="topnav">
+    <div class="topnav-inner">
+      <button class="hamburger" aria-label="Open menu" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="#" class="logo">PRUSA</a>
+      <nav class="primary-nav" id="primaryNav">
+        <a href="#">3D Printers</a>
+        <a href="#">Materials</a>
+        <a href="#">Parts &amp; Accessories</a>
+        <a href="#">Software</a>
+        <a href="#">3D Models</a>
+        <a href="#">Community</a>
+        <a href="#">Help</a>
+      </nav>
+      <div class="topnav-right">
+        <button class="icon-btn" aria-label="Search" id="mobileSearchBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="icon-btn cart" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span class="cart-badge">2</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- Search section -->
+    <section class="search-section">
+      <form class="searchbox" id="searchForm" role="search">
+        <input type="search" id="searchInput" value="" autocomplete="off" placeholder="Search printers, parts, articles…" />
+        <button class="search-submit" type="submit" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+      </form>
+
+      <div class="search-results-bar">
+        Search results for <strong id="queryEcho">all products</strong> — <span id="resultCount">0</span> results
+      </div>
+
+      <div class="tabs" role="tablist" id="tabs">
+        <button class="tab active" role="tab" data-tab="all">All <span class="tab-count">0</span></button>
+        <button class="tab" role="tab" data-tab="products">Products <span class="tab-count">0</span></button>
+        <button class="tab" role="tab" data-tab="articles">Articles <span class="tab-count">0</span></button>
+        <button class="tab" role="tab" data-tab="blog">Blog <span class="tab-count">0</span></button>
+        <button class="tab" role="tab" data-tab="models">3D Models <span class="tab-count">0</span></button>
+        <div class="tabs-spacer"></div>
+        <button class="filter-btn" id="filterBtn">⚲ Filters</button>
+      </div>
+    </section>
+
+    <!-- Two-column content -->
+    <div class="layout">
+
+      <div class="main-col">
+
+        <!-- Highlighted / Best match -->
+        <section class="block" data-tab-content="all products" id="highlightedSection">
+          <h2 class="block-title">Highlighted</h2>
+          <article class="best-match">
+            <div class="best-match-img">
+              <div class="aspect-ratio aspect-ratio--1-1 aspect-ratio--lg">
+                <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
+              </div>
+            </div>
+            <div class="best-match-body">
+              <h3 id="highlightedTitle"></h3>
+              <p id="highlightedDesc"></p>
+              <div class="best-match-meta" id="highlightedBadges"></div>
+              <div class="best-match-cta">
+                <button class="btn btn-primary" data-action="add-to-cart">Add to cart</button>
+                <button class="btn btn-secondary">View details →</button>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- Goods -->
+        <section class="block" data-tab-content="all products">
+          <header class="block-head">
+            <h2 class="block-title">Goods <span class="result-badge" id="goodsCount">0 results</span></h2>
+          </header>
+
+          <div class="goods-grid" id="goodsGrid">
+            <!-- product cards injected by JS -->
+          </div>
+
+          <button class="link-btn">See more goods →</button>
+        </section>
+
+        <!-- Articles -->
+        <section class="block" data-tab-content="all articles">
+          <header class="block-head">
+            <h2 class="block-title">Articles &amp; Support <span class="result-badge" id="articlesCount">0 results</span></h2>
+          </header>
+          <ul class="article-list" id="articleList"></ul>
+          <button class="link-btn">See more articles &amp; support →</button>
+        </section>
+
+        <!-- Blogs -->
+        <section class="block" data-tab-content="all blog">
+          <header class="block-head">
+            <h2 class="block-title">Blogs <span class="result-badge" id="blogCount">0 results</span></h2>
+          </header>
+          <ul class="article-list" id="blogList"></ul>
+          <button class="link-btn">See more blogs →</button>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-tell">
+          <p>Can't find what you're looking for?</p>
+          <a href="#" class="btn btn-primary">Tell us what you need →</a>
+        </section>
+
+      </div>
+
+      <aside class="sidebar">
+        <section class="side-block">
+          <h3>Popular Categories</h3>
+          <ul class="side-list" id="sideCategories"></ul>
+        </section>
+
+        <section class="side-block">
+          <h3>Trending Searches</h3>
+          <ul class="side-list trending" id="sideTrending"></ul>
+        </section>
+
+        <section class="side-block">
+          <h3>Useful Links</h3>
+          <ul class="side-list" id="sideUseful"></ul>
+        </section>
+
+        <section class="side-block">
+          <h3>Topics</h3>
+          <ul class="side-list" id="sideTopics"></ul>
+        </section>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Cart toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Moderator panel — hidden by default. Toggle with `?` key (or `m`). -->
+  <div class="mod-panel" id="moderatorPanel" hidden>
+    <div class="mod-panel-head">
+      <span class="mod-panel-title">Moderator</span>
+      <button class="mod-panel-close" id="modPanelClose" aria-label="Hide panel">×</button>
+    </div>
+    <label class="mod-panel-row">
+      <span class="mod-panel-label">Test query</span>
+      <select id="querySwitcher" class="query-switcher"></select>
+    </label>
+    <div class="mod-panel-hint">Press <kbd>Q</kbd> to toggle</div>
+  </div>
+
+  <!-- Quick view modal -->
+  <div class="modal" id="quickView" role="dialog" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div class="modal-img">
+        <div class="aspect-ratio aspect-ratio--1-1 aspect-ratio--lg" id="modalImg">
+          <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <span class="badge" id="modalBadge">Highlighted</span>
+        <h3 id="modalTitle">Product name</h3>
+        <p id="modalDesc">Loading…</p>
+        <div class="modal-price"><strong id="modalPrice">—</strong> <span class="vat">with VAT</span></div>
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="modalAddBtn">Add to cart</button>
+          <button class="btn btn-secondary">View full details →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
