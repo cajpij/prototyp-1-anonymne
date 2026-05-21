@@ -271,6 +271,253 @@
     }
   },
   "queries": {
+    "filter": {
+      "totalResults": 64,
+      "tabs": {
+        "all": 64,
+        "products": 62,
+        "articles": 2,
+        "blog": 0,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "HEPA filter",
+        "description": "Spare HEPA filter cartridge for the Advanced Filtration System. 99.9% particulate filtration efficiency, estimated 600h runtime. Easy slide-in replacement.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 649",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/hepa-filter/"
+      },
+      "goods": [
+        {
+          "name": "HEPA filter",
+          "price": "CZK 649",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hepa-filter/",
+          "image": "https://www.prusa3d.com/content/images/product/5419.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration BUNDLE",
+          "price": "CZK 35,838",
+          "stock": "none",
+          "stockLabel": "Out of stock",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/33cfdd38-c41a-49e0-9d85-21111cfb75e7.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration BUNDLE",
+          "price": "CZK 28,838",
+          "stock": "none",
+          "stockLabel": "Out of stock",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/8eeae9af-474d-4b52-85f6-f31a71f2280f.jpg"
+        },
+        {
+          "name": "Advanced Filtration for Prusa CORE One",
+          "price": "CZK 1,949",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/advanced-filtration-for-prusa-core-one/",
+          "image": "https://www.prusa3d.com/content/images/product/5972db2a-73a9-4727-93a1-1afae532112f.jpg"
+        },
+        {
+          "name": "IPA Pigment Filter",
+          "price": "CZK 199",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ipa-pigment-filter/",
+          "image": "https://www.prusa3d.com/content/images/product/6012.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 39,037",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/623d94ca-ef6a-4a8a-b688-5b7714879c08.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration BUNDLE",
+          "price": "CZK 34,939",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/33cfdd38-c41a-49e0-9d85-21111cfb75e7.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 30,237",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/1dd559bf-120a-4908-a224-899af097da35.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration BUNDLE",
+          "price": "CZK 27,939",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/8eeae9af-474d-4b52-85f6-f31a71f2280f.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 37,237",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/623d94ca-ef6a-4a8a-b688-5b7714879c08.jpg"
+        },
+        {
+          "name": "Advanced Filtration System for Original Prusa Enclosure",
+          "price": "CZK 1,949",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/advanced-filtration-system-for-original-prusa-enclosure/",
+          "image": "https://www.prusa3d.com/content/images/product/4929.jpg"
+        },
+        {
+          "name": "Basic Board and PSU for Original Prusa Enclosure (for Filtration unit and LED)",
+          "price": "CZK 999",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/basic-board-and-psu-for-original-prusa-enclosure-for-filtration-unit-and-led/",
+          "image": "https://www.prusa3d.com/content/images/product/4938.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 37,028",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/623d94ca-ef6a-4a8a-b688-5b7714879c08.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 29,937",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/1dd559bf-120a-4908-a224-899af097da35.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 32,037",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/1dd559bf-120a-4908-a224-899af097da35.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 29,038",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/1dd559bf-120a-4908-a224-899af097da35.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ Advanced Filtration + Camera BUNDLE",
+          "price": "CZK 36,038",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-camera-bundle/",
+          "image": "https://www.prusa3d.com/content/images/product/623d94ca-ef6a-4a8a-b688-5b7714879c08.jpg"
+        },
+        {
+          "name": "Filter fan SL1/S, CW1/S",
+          "price": "CZK 329",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/filter-fan-sl1-s-cw1-s/",
+          "image": "https://www.prusa3d.com/content/images/product/1678.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "IPA pigment filter",
+          "description": "Guide for using the IPA pigment filter with the CW1/S. Folded cellulose filter that removes pigment and white powder filler from used isopropyl alcohol — extends usable IPA life.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/guide/ipa-pigment-filter_397213"
+        },
+        {
+          "title": "IPA pigment filter (CW1/CW1S)",
+          "description": "How to install and use the IPA pigment filter on the Original Prusa Curing and Washing Machine. From firmware 3.3.0 onwards, dedicated IPA filtering mode in the menu (40 min cycle, rated up to 10 uses).",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "CW1 / CW1S"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/ipa-pigment-filter-cw1-cw1s_399494",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2023/01/daba48003fe760c7.jpg"
+        }
+      ],
+      "blog": [],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Filtration & Enclosure Accessories",
+            "url": "https://www.prusa3d.com/product/advanced-filtration-system-for-original-prusa-enclosure/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "filter"
+          },
+          {
+            "label": "filtration"
+          },
+          {
+            "label": "hepa"
+          },
+          {
+            "label": "hepa filter"
+          },
+          {
+            "label": "advanced filtration"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "Advanced Filtration System guide",
+            "url": "https://help.prusa3d.com/guide/7-advanced-filtration-system-add-on_361946"
+          },
+          {
+            "title": "Original Prusa Enclosure overview",
+            "url": "https://help.prusa3d.com/article/original-prusa-enclosure_347479"
+          },
+          {
+            "title": "CW1 maintenance",
+            "url": "https://help.prusa3d.com/article/cw1-maintenance_112145"
+          },
+          {
+            "title": "Filtration unit & LED add-ons",
+            "url": "https://www.prusa3d.com/product/basic-board-and-psu-for-original-prusa-enclosure-for-filtration-unit-and-led/"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Advanced filtration",
+            "url": "https://help.prusa3d.com/guide/7-advanced-filtration-system-add-on_361946"
+          },
+          {
+            "title": "Original Prusa Enclosure",
+            "url": "https://help.prusa3d.com/article/original-prusa-enclosure_347479"
+          },
+          {
+            "title": "Printer maintenance",
+            "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
+          },
+          {
+            "title": "CW1 / CW1S",
+            "url": "https://help.prusa3d.com/article/cw1-maintenance_112145"
+          }
+        ]
+      }
+    },
     "petg": {
       "totalResults": 476,
       "tabs": {
