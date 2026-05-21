@@ -271,6 +271,266 @@
     }
   },
   "queries": {
+    "tpu": {
+      "totalResults": 19,
+      "tabs": {
+        "all": 19,
+        "products": 16,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Prusament TPU 95A Jet Black 500g (NFC)",
+        "description": "Durable flexible filament with extreme wear resistance and very low moisture absorption. Made in-house at Prusa Research with ±0.06mm precision. NFC-tagged spool.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 899",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/"
+      },
+      "goods": [
+        {
+          "name": "Prusament TPU 95A Jet Black 500g (NFC)",
+          "price": "CZK 899",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
+        },
+        {
+          "name": "Prusament TPU 95A Ultramarine Blue 500g (NFC)",
+          "price": "CZK 899",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/category/prusament-tpu/",
+          "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
+        },
+        {
+          "name": "Bedrock 3D TPU 85A Natural 750g",
+          "price": "CZK 1,199",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/bedrock-3d-tpu-85a-natural-750g/",
+          "image": "https://www.prusa3d.com/content/images/product/8093ddbf-92be-45a1-9f56-3b87b3a112c2.jpg"
+        },
+        {
+          "name": "Prusament TPU 95A Jet Black 25g sample",
+          "price": "CZK 89",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
+        },
+        {
+          "name": "Prusament TPU 95A Lipstick Red 25g sample",
+          "price": "CZK 89",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
+        },
+        {
+          "name": "Prusament TPU 95A Natural 25g sample",
+          "price": "CZK 89",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
+          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
+        },
+        {
+          "name": "Prusament TPU 95A Natural 500g (NFC)",
+          "price": "CZK 899",
+          "stock": "none",
+          "stockLabel": "Out of stock",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
+          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
+        },
+        {
+          "name": "Prusament TPU 95A Ultramarine Blue 25g sample",
+          "price": "CZK 89",
+          "stock": "none",
+          "stockLabel": "Out of stock",
+          "url": "https://www.prusa3d.com/category/prusament-tpu/",
+          "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
+        },
+        {
+          "name": "Prusament TPU 95A Lipstick Red 500g (NFC)",
+          "price": "CZK 899",
+          "stock": "none",
+          "stockLabel": "Out of stock",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
+        },
+        {
+          "name": "Prusament TPU 95A Jet Black 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
+        },
+        {
+          "name": "Prusament TPU 95A Natural 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
+          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
+        },
+        {
+          "name": "Prusament TPU 95A Lipstick Red 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
+        },
+        {
+          "name": "Prusament TPU 95A Ultramarine Blue 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/category/prusament-tpu/",
+          "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
+        },
+        {
+          "name": "Bedrock 3D TPU 64D Black 750g",
+          "price": "CZK 1,199",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/bedrock-3d-tpu-64d-black-750g/",
+          "image": "https://www.prusa3d.com/content/images/product/8991c72c-138a-4b39-9ec8-b61f9ed56d23.jpg"
+        },
+        {
+          "name": "Forward AM Ultrafuse TPU 95A Black 750g",
+          "price": "CZK 1,199",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/forward-am-ultrafuse-tpu-95a-black-750g/",
+          "image": "https://www.prusa3d.com/content/images/product/f3b86b4c-9fae-4062-be53-442d47e4d3ec.jpg"
+        },
+        {
+          "name": "CORE One L PP powder-coated Print Sheet",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/core-one-l-pp-powder-coated-print-sheet/",
+          "image": "https://www.prusa3d.com/content/images/product/5cbde2ed-a6bc-41c0-bf66-39ff6bc949e3.png"
+        }
+      ],
+      "articles": [
+        {
+          "title": "Ultrafuse TPU-85A Flex — Material Guide",
+          "description": "BASF Forward AM's Ultrafuse TPU 85A: flexible engineering filament. Recommended temperatures, retraction, support, and surface preparation for FFF printing.",
+          "badges": [
+            {
+              "text": "Material guide",
+              "variant": "info"
+            },
+            {
+              "text": "Flexible"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/flexible-materials_2057",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/flex2.jpg"
+        },
+        {
+          "title": "Ultrafuse TPU-64D Flex — Material Guide",
+          "description": "BASF Forward AM's Ultrafuse TPU 64D: hardest of the flexible Ultrafuse line. Industrial-grade rigidity with impact and wear resistance.",
+          "badges": [
+            {
+              "text": "Material guide",
+              "variant": "info"
+            },
+            {
+              "text": "Flexible"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/flexible-materials_2057",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/flex2.jpg"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Prusament TPU 95A — Now That's a Flex",
+          "description": "Announcement of Prusament TPU 95A — Prusa's in-house flexible filament. Print profile tips, mechanical properties, and applications.",
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "Prusament"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/prusament-tpu-95a-now-thats-a-flex_115316/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2025/05/275b0aeb-prusament_tpu95anatural_blog.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Prusament TPU",
+            "url": "https://www.prusa3d.com/category/prusament-tpu/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "tpu"
+          },
+          {
+            "label": "prusament tpu 95a"
+          },
+          {
+            "label": "tpu 95a"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "Prusament TPU 95A — Material Guide",
+            "url": "https://help.prusa3d.com/article/prusament-tpu-95a-material-guide_899653"
+          },
+          {
+            "title": "Flexible materials guide",
+            "url": "https://help.prusa3d.com/article/flexible-materials_2057"
+          },
+          {
+            "title": "Prusament TPU category",
+            "url": "https://www.prusa3d.com/category/prusament-tpu/"
+          },
+          {
+            "title": "Filament storage (TPU is hygroscopic)",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Flexible materials",
+            "url": "https://help.prusa3d.com/article/flexible-materials_2057"
+          },
+          {
+            "title": "Print settings for TPU",
+            "url": "https://help.prusa3d.com/article/prusament-tpu-95a-material-guide_899653"
+          },
+          {
+            "title": "Filament storage",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Print bed adhesion",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          },
+          {
+            "title": "Retraction tuning",
+            "url": "https://help.prusa3d.com/category/filament-settings_916"
+          }
+        ]
+      }
+    },
     "firmware": {
       "totalResults": 13,
       "tabs": {
@@ -2296,7 +2556,8 @@
           "stock": "low",
           "stockLabel": "Estimated leadtime 1 week",
           "badge": "10×",
-          "url": "https://www.prusa3d.com/category/prusament-tpu/"
+          "url": "https://www.prusa3d.com/category/prusament-tpu/",
+          "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
         }
       ],
       "articles": [
