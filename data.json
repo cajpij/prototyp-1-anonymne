@@ -201,19 +201,19 @@
           { "label": "mmu upgrade" }
         ],
         "usefulLinks": [
-          { "title": "MMU3 Setup Manual" },
-          { "title": "MMU3 Community Forum" },
-          { "title": "MMU3 Spare Parts" },
-          { "title": "MMU3 Support Ticket Form" },
-          { "title": "Multi-material PrusaSlicer profiles" }
+          { "title": "MMU3 Setup Manual",                 "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757" },
+          { "title": "MMU3 Community Forum",              "url": "https://forum.prusa3d.com/forum/original-prusa-i3-mmu3-general-discussion-announcements-and-releases/" },
+          { "title": "MMU3 Spare Parts",                  "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/" },
+          { "title": "MMU3 Support Ticket Form",          "url": "https://help.prusa3d.com/article/get-support_1907" },
+          { "title": "Multi-material PrusaSlicer profiles","url": "https://help.prusa3d.com/category/multi-material-slicing_881" }
         ],
         "topics": [
-          { "title": "Multi-material printing" },
-          { "title": "MMU3 assembly" },
-          { "title": "Filament loading" },
-          { "title": "Troubleshooting MMU3" },
-          { "title": "PrusaSlicer multi-material" },
-          { "title": "Firmware updates" }
+          { "title": "Multi-material printing",  "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
+          { "title": "MMU3 assembly",            "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757" },
+          { "title": "Filament loading",         "url": "https://help.prusa3d.com/article/mmu3-setup-and-inspection_688142" },
+          { "title": "Troubleshooting MMU3",     "url": "https://help.prusa3d.com/product/mmu3/troubleshooting_194" },
+          { "title": "PrusaSlicer multi-material","url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
+          { "title": "Firmware updates",         "url": "https://help.prusa3d.com/article/how-to-update-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s-xl_453086" }
         ]
       }
     },
@@ -282,15 +282,15 @@
           { "label": "prusa uss drybox" }
         ],
         "usefulLinks": [
-          { "title": "Filament storage guide" },
-          { "title": "Humidity & 3D printing FAQ" },
-          { "title": "Drybox community forum" }
+          { "title": "Filament storage guide",          "url": "https://help.prusa3d.com/article/drying-filament_332086" },
+          { "title": "Humidity & 3D printing FAQ",      "url": "https://help.prusa3d.com/article/drying-filament_332086" },
+          { "title": "Drybox community forum",          "url": "https://forum.prusa3d.com/forum/english-forum-general-discussion-announcements-and-releases/" }
         ],
         "topics": [
-          { "title": "Filament storage" },
-          { "title": "Material handling" },
-          { "title": "Print quality troubleshooting" },
-          { "title": "Hygroscopic materials" }
+          { "title": "Filament storage",                "url": "https://help.prusa3d.com/article/drying-filament_332086" },
+          { "title": "Material handling",               "url": "https://help.prusa3d.com/en/materials" },
+          { "title": "Print quality troubleshooting",   "url": "https://help.prusa3d.com/article/first-layer-issues_1804" },
+          { "title": "Hygroscopic materials",           "url": "https://help.prusa3d.com/article/polyamide-nylon_167188" }
         ]
       }
     },
@@ -346,17 +346,17 @@
           { "label": "indx nozzle" }
         ],
         "usefulLinks": [
-          { "title": "INDX Setup Manual" },
-          { "title": "INDX Community Forum" },
-          { "title": "Sample multi-material G-codes" },
-          { "title": "Multi-material PrusaSlicer profiles" }
+          { "title": "INDX Setup Manual",                "url": "https://www.prusa3d.com/p/bondtech-indx/" },
+          { "title": "INDX Community Forum",             "url": "https://forum.prusa3d.com/forum/prusa-indx-general-discussion-announcements-and-releases/" },
+          { "title": "Sample multi-material G-codes",    "url": "https://help.prusa3d.com/article/sample-g-codes_529630" },
+          { "title": "Multi-material PrusaSlicer profiles","url": "https://help.prusa3d.com/category/multi-material-slicing_881" }
         ],
         "topics": [
-          { "title": "Multi-material printing" },
-          { "title": "Toolchanger maintenance" },
-          { "title": "PrusaSlicer multi-material" },
-          { "title": "Filament compatibility" },
-          { "title": "Print bed adhesion" }
+          { "title": "Multi-material printing",      "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
+          { "title": "Toolchanger maintenance",      "url": "https://www.prusa3d.com/p/bondtech-indx/" },
+          { "title": "PrusaSlicer multi-material",   "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
+          { "title": "Filament compatibility",       "url": "https://help.prusa3d.com/en/materials" },
+          { "title": "Print bed adhesion",           "url": "https://help.prusa3d.com/article/first-layer-issues_1804" }
         ]
       }
     },
