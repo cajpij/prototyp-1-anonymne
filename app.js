@@ -29,6 +29,19 @@
     return String(s == null ? '' : s).replace(/"/g, '&quot;');
   }
 
+  // Render a thumb: real <img> when item.image is set, otherwise the
+  // Aspect Ratio Gray placeholder with the ? glyph (user-testing fallback).
+  function renderThumb(item, sizeMod = '') {
+    if (item && item.image) {
+      return `<div class="aspect-ratio aspect-ratio--1-1${sizeMod ? ' ' + sizeMod : ''}">
+        <img class="aspect-ratio__img" src="${escAttr(item.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">
+      </div>`;
+    }
+    return `<div class="aspect-ratio aspect-ratio--1-1${sizeMod ? ' ' + sizeMod : ''}">
+      <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
+    </div>`;
+  }
+
   // ===== State =====
   let DATA = null;
   let currentQuery = '';
@@ -130,6 +143,8 @@
     if (viewBtn) {
       viewBtn.href = prusaUrl(h, 'product');
     }
+    const imgEl = $('#highlightedImg');
+    if (imgEl) imgEl.innerHTML = renderThumb(h, 'aspect-ratio--lg');
   }
 
   function renderGoods(d) {
@@ -153,9 +168,7 @@
         <article class="product" data-idx="${i}">
           <a class="product-link" href="${escAttr(href)}" target="_blank" rel="noopener" aria-label="${escAttr(p.name)}">
             <div class="product-img">
-              <div class="aspect-ratio aspect-ratio--1-1">
-                <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
-              </div>
+              ${renderThumb(p)}
               ${p.badge ? `<span class="badge badge-accent product-badge-overlay">${p.badge}</span>` : ''}
               <span class="product-quick">Quick view</span>
             </div>
@@ -322,10 +335,13 @@
       const stockClass = p.stock === 'ok' ? 'stock-ok' : p.stock === 'low' ? 'stock-low' : 'stock-none';
       const stockLabel = p.stockLabel || (p.stock === 'ok' ? 'In stock' : p.stock === 'low' ? 'Low stock' : 'Sold out');
       const href = escAttr(prusaUrl(p, 'product'));
+      const thumb = p.image
+        ? `<div class="ac-thumb ac-thumb--img"><img src="${escAttr(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
+        : `<div class="ac-thumb">${productIco}</div>`;
       return `
         <li class="ac-item ac-item--product" data-ac-kind="product" data-ac-idx="${i}" role="option">
           <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
-            <div class="ac-thumb">${productIco}</div>
+            ${thumb}
             <div class="ac-item-body">
               <div class="ac-item-title">${p.name}</div>
               <div class="ac-item-stock ${stockClass}"><span class="dot"></span>${stockLabel}</div>
@@ -557,6 +573,8 @@
     const { data } = resolveQuery(currentQuery);
     const p = (data.goods || [])[idx];
     if (!p) return;
+    const modalImgWrap = $('#modalImg').parentElement;
+    if (modalImgWrap) modalImgWrap.innerHTML = renderThumb(p, 'aspect-ratio--lg');
     $('#modalTitle').textContent = p.name;
     $('#modalTitle').className = cls(isPlaceholder);
     $('#modalBadge').textContent = p.badge || 'Product';

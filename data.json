@@ -4,8 +4,11 @@
     "shape": {
       "totalResults": "number — shown next to 'Search results for ...'",
       "tabs": {
-        "all": "number", "products": "number", "articles": "number",
-        "blog": "number", "models": "number"
+        "all": "number",
+        "products": "number",
+        "articles": "number",
+        "blog": "number",
+        "models": "number"
       },
       "highlighted": {
         "title": "string",
@@ -25,155 +28,428 @@
       }
     }
   },
-
   "default": {
     "totalResults": 234,
-    "tabs": { "all": 234, "products": 227, "articles": 123, "blog": 24, "models": 1400 },
+    "tabs": {
+      "all": 234,
+      "products": 227,
+      "articles": 123,
+      "blog": 24,
+      "models": 1400
+    },
     "highlighted": {
       "title": "Lorem ipsum dolor sit amet consectetur",
       "description": "Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.",
       "badges": [
-        { "text": "New", "variant": "accent" },
-        { "text": "In stock" },
-        { "text": "Ships in 24h" }
+        {
+          "text": "New",
+          "variant": "accent"
+        },
+        {
+          "text": "In stock"
+        },
+        {
+          "text": "Ships in 24h"
+        }
       ],
       "price": "CZK X,XXX",
       "image": null
     },
     "goods": [
-      { "name": "Lorem ipsum dolor sit amet",       "price": "CZK X,XXX",  "stock": "ok",  "badge": "New" },
-      { "name": "Consectetur adipiscing",           "price": "CZK XX,XXX", "stock": "ok"  },
-      { "name": "Sed do eiusmod tempor incididunt", "price": "CZK XX,XXX", "stock": "low" },
-      { "name": "Ut labore et dolore magna",        "price": "CZK X,XXX",  "stock": "ok"  },
-      { "name": "Aliqua ut enim ad minim",          "price": "CZK XXX",    "stock": "ok"  },
-      { "name": "Veniam quis nostrud",              "price": "CZK XXX",    "stock": "ok"  },
-      { "name": "Exercitation ullamco laboris",     "price": "CZK XXX",    "stock": "ok"  },
-      { "name": "Nisi ut aliquip ex ea commodo",    "price": "CZK X,XXX",  "stock": "low" }
+      {
+        "name": "Lorem ipsum dolor sit amet",
+        "price": "CZK X,XXX",
+        "stock": "ok",
+        "badge": "New"
+      },
+      {
+        "name": "Consectetur adipiscing",
+        "price": "CZK XX,XXX",
+        "stock": "ok"
+      },
+      {
+        "name": "Sed do eiusmod tempor incididunt",
+        "price": "CZK XX,XXX",
+        "stock": "low"
+      },
+      {
+        "name": "Ut labore et dolore magna",
+        "price": "CZK X,XXX",
+        "stock": "ok"
+      },
+      {
+        "name": "Aliqua ut enim ad minim",
+        "price": "CZK XXX",
+        "stock": "ok"
+      },
+      {
+        "name": "Veniam quis nostrud",
+        "price": "CZK XXX",
+        "stock": "ok"
+      },
+      {
+        "name": "Exercitation ullamco laboris",
+        "price": "CZK XXX",
+        "stock": "ok"
+      },
+      {
+        "name": "Nisi ut aliquip ex ea commodo",
+        "price": "CZK X,XXX",
+        "stock": "low"
+      }
     ],
     "articles": [
       {
         "title": "Lorem ipsum dolor sit amet",
         "description": "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "badges": [{ "text": "Knowledge base", "variant": "info" }]
+        "badges": [
+          {
+            "text": "Knowledge base",
+            "variant": "info"
+          }
+        ]
       },
       {
         "title": "Ut enim ad minim veniam",
         "description": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "badges": [{ "text": "Firmware", "variant": "success" }, { "text": "Release notes" }]
+        "badges": [
+          {
+            "text": "Firmware",
+            "variant": "success"
+          },
+          {
+            "text": "Release notes"
+          }
+        ]
       },
       {
         "title": "Duis aute irure dolor in reprehenderit",
         "description": "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-        "badges": [{ "text": "Manual" }, { "text": "Hardware", "variant": "info" }],
+        "badges": [
+          {
+            "text": "Manual"
+          },
+          {
+            "text": "Hardware",
+            "variant": "info"
+          }
+        ],
         "action": "Begin assembly →"
       },
       {
         "title": "Sunt in culpa qui officia deserunt mollit",
         "description": "Anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
-        "badges": [{ "text": "Manual" }, { "text": "Software", "variant": "info" }]
+        "badges": [
+          {
+            "text": "Manual"
+          },
+          {
+            "text": "Software",
+            "variant": "info"
+          }
+        ]
       }
     ],
     "blog": [
       {
         "title": "Lorem ipsum dolor sit amet consectetur",
         "description": "Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.",
-        "badges": [{ "text": "News", "variant": "accent" }, { "text": "Updates" }]
+        "badges": [
+          {
+            "text": "News",
+            "variant": "accent"
+          },
+          {
+            "text": "Updates"
+          }
+        ]
       },
       {
         "title": "Quis nostrud exercitation ullamco",
         "description": "Laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit voluptate.",
-        "badges": [{ "text": "Materials" }, { "text": "Guide" }]
+        "badges": [
+          {
+            "text": "Materials"
+          },
+          {
+            "text": "Guide"
+          }
+        ]
       },
       {
         "title": "Velit esse cillum dolore eu fugiat",
         "description": "Nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt.",
-        "badges": [{ "text": "Engineering" }]
+        "badges": [
+          {
+            "text": "Engineering"
+          }
+        ]
       },
       {
         "title": "Mollit anim id est laborum",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "badges": [{ "text": "Community", "variant": "success" }]
+        "badges": [
+          {
+            "text": "Community",
+            "variant": "success"
+          }
+        ]
       }
     ],
     "sidebar": {
       "popularCategories": [
-        { "title": "Lorem ipsum category one" },
-        { "title": "Dolor sit amet category" },
-        { "title": "Consectetur adipiscing elit" },
-        { "title": "Sed do eiusmod tempor" }
+        {
+          "title": "Lorem ipsum category one"
+        },
+        {
+          "title": "Dolor sit amet category"
+        },
+        {
+          "title": "Consectetur adipiscing elit"
+        },
+        {
+          "title": "Sed do eiusmod tempor"
+        }
       ],
       "trendingSearches": [
-        { "label": "lorem ipsum" },
-        { "label": "dolor sit" },
-        { "label": "consectetur" },
-        { "label": "adipiscing" }
+        {
+          "label": "lorem ipsum"
+        },
+        {
+          "label": "dolor sit"
+        },
+        {
+          "label": "consectetur"
+        },
+        {
+          "label": "adipiscing"
+        }
       ],
       "usefulLinks": [
-        { "title": "Lorem ipsum community" },
-        { "title": "Dolor sit amet links" },
-        { "title": "Consectetur resources" },
-        { "title": "Adipiscing support" },
-        { "title": "Eiusmod tempor guides" }
+        {
+          "title": "Lorem ipsum community"
+        },
+        {
+          "title": "Dolor sit amet links"
+        },
+        {
+          "title": "Consectetur resources"
+        },
+        {
+          "title": "Adipiscing support"
+        },
+        {
+          "title": "Eiusmod tempor guides"
+        }
       ],
       "topics": [
-        { "title": "Lorem ipsum topic" },
-        { "title": "Dolor sit topic" },
-        { "title": "Consectetur topic" },
-        { "title": "Adipiscing topic" },
-        { "title": "Eiusmod topic" },
-        { "title": "Tempor topic" },
-        { "title": "Incididunt topic" },
-        { "title": "Labore topic" }
+        {
+          "title": "Lorem ipsum topic"
+        },
+        {
+          "title": "Dolor sit topic"
+        },
+        {
+          "title": "Consectetur topic"
+        },
+        {
+          "title": "Adipiscing topic"
+        },
+        {
+          "title": "Eiusmod topic"
+        },
+        {
+          "title": "Tempor topic"
+        },
+        {
+          "title": "Incididunt topic"
+        },
+        {
+          "title": "Labore topic"
+        }
       ]
     }
   },
-
   "queries": {
     "mmu3": {
       "totalResults": 135,
-      "tabs": { "all": 135, "products": 124, "articles": 2, "blog": 1, "models": 8 },
+      "tabs": {
+        "all": 135,
+        "products": 124,
+        "articles": 2,
+        "blog": 1,
+        "models": 8
+      },
       "highlighted": {
         "title": "Original Prusa MMU3 Lite (for CORE One)",
         "description": "Multi-material upgrade for CORE One — print up to 5 colors or materials in one job. Open-frame variant, easy installation, and full PrusaSlicer integration.",
         "badges": [
-          { "text": "In stock", "variant": "success" },
-          { "text": "CORE One ready" }
+          {
+            "text": "In stock",
+            "variant": "success"
+          },
+          {
+            "text": "CORE One ready"
+          }
         ],
         "price": "CZK 8,590",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/2a7df1a1-0c0d-4ea7-b4c8-6f2cc64233d0.jpg",
         "url": "https://www.prusa3d.com/product/original-prusa-mmu3-lite-for-core-one-full-kit/"
       },
       "goods": [
-        { "name": "Original Prusa MMU3 Lite (for CORE One)",          "price": "CZK 8,590",  "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mmu3-lite-for-core-one-full-kit/" },
-        { "name": "Original Prusa MMU3 Enclosed (for CORE One)",      "price": "CZK 9,590",  "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mmu3-enclosed-for-core-one-full-kit/" },
-        { "name": "Original Prusa MK4S 3D Printer kit",               "price": "CZK 16,990", "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-kit/" },
-        { "name": "Original Prusa MK4S 3D Printer",                   "price": "CZK 23,990", "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer/" },
-        { "name": "MMU3 Printer Cable 550mm",                         "price": "CZK 399",    "stock": "ok", "url": "https://www.prusa3d.com/product/mmu3-printer-cable-550mm/" },
-        { "name": "PTFE 4×2.5×360",                                   "price": "CZK 49",     "stock": "ok", "url": "https://www.prusa3d.com/product/ptfe-4x2-5x360/" },
-        { "name": "Original Prusa MMU3 Community Version Cable (for CORE One)", "price": "CZK 399", "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mmu3-community-version-cable-for-core-one/" },
-        { "name": "F.I.N.D.A. sensor",                                "price": "CZK 399",    "stock": "ok", "url": "https://www.prusa3d.com/product/f-i-n-d-a-sensor/" },
-        { "name": "MMU PD-board addon",                               "price": "CZK 399",    "stock": "ok", "url": "https://www.prusa3d.com/product/mmu-pd-board-addon/" },
-        { "name": "PTFE 4×2.5×650",                                   "price": "CZK 99",     "stock": "ok", "url": "https://www.prusa3d.com/product/ptfe-4x2-5x650/" },
-        { "name": "MMU3 Printer Cable 800mm",                         "price": "CZK 399",    "stock": "ok", "url": "https://www.prusa3d.com/product/mmu3-printer-cable-einsy/" },
-        { "name": "PTFE 4×2.5×19",                                    "price": "CZK 29",     "stock": "ok", "url": "https://www.prusa3d.com/product/ptfe-4x2-5x19/" },
-        { "name": "Coupler 5mm",                                      "price": "CZK 99",     "stock": "ok", "url": "https://www.prusa3d.com/product/coupler-5mm/" },
-        { "name": "PTFE 4×2,5×390",                                   "price": "CZK 69",     "stock": "ok", "url": "https://www.prusa3d.com/product/ptfe-tube-4x2-5x1275-mm/" },
-        { "name": "MMU3 Selector front plate",                        "price": "CZK 99",     "stock": "ok", "url": "https://www.prusa3d.com/product/mmu3-selector-front-plate/" },
-        { "name": "Main Plate set MMU3",                              "price": "CZK 349",    "stock": "ok", "url": "https://www.prusa3d.com/product/main-plate-set-mmu3/" },
-        { "name": "MMU3 Metal holder",                                "price": "CZK 499",    "stock": "ok", "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/" },
-        { "name": "Original Prusa MMU3 (for MK4S/MK3.9S) — Full kit", "price": "CZK 8,590",  "stock": "ok", "url": "https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk4s-mk3-9s-7/" }
+        {
+          "name": "Original Prusa MMU3 Lite (for CORE One)",
+          "price": "CZK 8,590",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mmu3-lite-for-core-one-full-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/2a7df1a1-0c0d-4ea7-b4c8-6f2cc64233d0.jpg"
+        },
+        {
+          "name": "Original Prusa MMU3 Enclosed (for CORE One)",
+          "price": "CZK 9,590",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mmu3-enclosed-for-core-one-full-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/eb418315-b903-4866-a6d2-d0c44e4ce81d.jpg"
+        },
+        {
+          "name": "Original Prusa MK4S 3D Printer kit",
+          "price": "CZK 16,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/226b1536-4128-44d9-9c7c-50c4a8697957.jpg"
+        },
+        {
+          "name": "Original Prusa MK4S 3D Printer",
+          "price": "CZK 23,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer/",
+          "image": "https://www.prusa3d.com/content/images/product/7ee2b138-29c0-4ab4-94d1-7bac57740356.jpg"
+        },
+        {
+          "name": "MMU3 Printer Cable 550mm",
+          "price": "CZK 399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu3-printer-cable-550mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3f5799b1-2b09-4e98-8ebe-0f787daf58bb.png"
+        },
+        {
+          "name": "PTFE 4×2.5×360",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-4x2-5x360/",
+          "image": "https://www.prusa3d.com/content/images/product/183ec2b0-f7c1-4f33-bb80-1236fb770502.jpg"
+        },
+        {
+          "name": "Original Prusa MMU3 Community Version Cable (for CORE One)",
+          "price": "CZK 399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mmu3-community-version-cable-for-core-one/",
+          "image": "https://www.prusa3d.com/content/images/product/fe6a37e1-6216-4a3a-976b-8c9282cfca4d.png"
+        },
+        {
+          "name": "F.I.N.D.A. sensor",
+          "price": "CZK 399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/f-i-n-d-a-sensor/",
+          "image": "https://www.prusa3d.com/content/images/product/1006.jpg"
+        },
+        {
+          "name": "MMU PD-board addon",
+          "price": "CZK 399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu-pd-board-addon/",
+          "image": "https://www.prusa3d.com/content/images/product/b7a76ef2-36e7-489f-8e24-759745c31997.jpg"
+        },
+        {
+          "name": "PTFE 4×2.5×650",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-4x2-5x650/",
+          "image": "https://www.prusa3d.com/content/images/product/b7dd4b18-0b18-4d09-ae3f-5dcd158f0ebf.jpg"
+        },
+        {
+          "name": "MMU3 Printer Cable 800mm",
+          "price": "CZK 399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu3-printer-cable-einsy/",
+          "image": "https://www.prusa3d.com/content/images/product/94d4edd4-6d5c-4d92-963b-10a66a6ef732.jpg"
+        },
+        {
+          "name": "PTFE 4×2.5×19",
+          "price": "CZK 29",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-4x2-5x19/",
+          "image": "https://www.prusa3d.com/content/images/product/4d01d685-6315-41eb-b4f0-674f2c55ad93.jpg"
+        },
+        {
+          "name": "Coupler 5mm",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/coupler-5mm/",
+          "image": "https://www.prusa3d.com/content/images/product/043a390f-4710-49da-9644-1fe3661c8e01.jpg"
+        },
+        {
+          "name": "PTFE 4×2,5×390",
+          "price": "CZK 69",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-tube-4x2-5x1275-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/800e5aa1-9e23-405a-85fc-d0756bd07605.jpg"
+        },
+        {
+          "name": "MMU3 Selector front plate",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu3-selector-front-plate/",
+          "image": "https://www.prusa3d.com/content/images/product/a15b9735-cc1a-4a43-9b76-90809bbd9688.jpg"
+        },
+        {
+          "name": "Main Plate set MMU3",
+          "price": "CZK 349",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/main-plate-set-mmu3/",
+          "image": "https://www.prusa3d.com/content/images/product/be84f725-ee08-44be-a482-8baa8087c653.jpg"
+        },
+        {
+          "name": "MMU3 Metal holder",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+        },
+        {
+          "name": "Original Prusa MMU3 (for MK4S/MK3.9S) — Full kit",
+          "price": "CZK 8,590",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk4s-mk3-9s-7/",
+          "image": "https://www.prusa3d.com/content/images/product/b39ede19-58bf-4c39-a00d-8041b2d6da5c.png"
+        }
       ],
       "articles": [
         {
           "title": "Original Prusa MK3.5 firmware 5.2.1 — MMU3 support",
           "description": "Release notes for firmware 5.2.1 with full MMU3 support on MK3.5. New filament profiles, improved tip-shaping, and extended PrusaSlicer multi-material integration.",
-          "badges": [{ "text": "Firmware", "variant": "success" }, { "text": "Release notes" }],
+          "badges": [
+            {
+              "text": "Firmware",
+              "variant": "success"
+            },
+            {
+              "text": "Release notes"
+            }
+          ],
           "url": "https://help.prusa3d.com/article/mmu3-firmware-compatibility_470808"
         },
         {
           "title": "MMU3 Compatibility",
           "description": "Complete compatibility matrix: which Prusa printers support MMU3, which firmware versions are required, and how to migrate from MMU2S setups.",
-          "badges": [{ "text": "Knowledge base", "variant": "info" }, { "text": "Compatibility" }],
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "Compatibility"
+            }
+          ],
           "url": "https://help.prusa3d.com/article/mmu3-compatibility_470808"
         }
       ],
@@ -181,85 +457,283 @@
         {
           "title": "Make your prints shine with colors! The MMU3 for the Prusa CORE One is Here!",
           "description": "Multi-material printing comes to CORE One. Two MMU3 variants (Lite and Enclosed), seamless filament switching, and ready-to-print color profiles. Order now.",
-          "badges": [{ "text": "News", "variant": "accent" }, { "text": "CORE One" }, { "text": "MMU3" }],
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "CORE One"
+            },
+            {
+              "text": "MMU3"
+            }
+          ],
           "url": "https://blog.prusa3d.com/mmu3-for-the-prusa-core-one-is-here_115073/"
         }
       ],
       "sidebar": {
         "popularCategories": [
-          { "title": "MMU3 Plastic Parts", "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/" },
-          { "title": "CORE One MMU3",      "url": "https://www.prusa3d.com/category/core-one-mmu3/" },
-          { "title": "MMU3",               "url": "https://www.prusa3d.com/category/upgrades/" },
-          { "title": "MKx MMU3",           "url": "https://www.prusa3d.com/category/upgrades/" },
-          { "title": "MMU3 Spare parts",   "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/" }
+          {
+            "title": "MMU3 Plastic Parts",
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+          },
+          {
+            "title": "CORE One MMU3",
+            "url": "https://www.prusa3d.com/category/core-one-mmu3/"
+          },
+          {
+            "title": "MMU3",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          },
+          {
+            "title": "MKx MMU3",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          },
+          {
+            "title": "MMU3 Spare parts",
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+          }
         ],
         "trendingSearches": [
-          { "label": "mmu3" },
-          { "label": "mmu3 firmware" },
-          { "label": "mmu3 kit" },
-          { "label": "mmu" },
-          { "label": "mmu upgrade" }
+          {
+            "label": "mmu3"
+          },
+          {
+            "label": "mmu3 firmware"
+          },
+          {
+            "label": "mmu3 kit"
+          },
+          {
+            "label": "mmu"
+          },
+          {
+            "label": "mmu upgrade"
+          }
         ],
         "usefulLinks": [
-          { "title": "MMU3 Setup Manual",                 "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757" },
-          { "title": "MMU3 Community Forum",              "url": "https://forum.prusa3d.com/forum/original-prusa-i3-mmu3-general-discussion-announcements-and-releases/" },
-          { "title": "MMU3 Spare Parts",                  "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/" },
-          { "title": "MMU3 Support Ticket Form",          "url": "https://help.prusa3d.com/article/get-support_1907" },
-          { "title": "Multi-material PrusaSlicer profiles","url": "https://help.prusa3d.com/category/multi-material-slicing_881" }
+          {
+            "title": "MMU3 Setup Manual",
+            "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757"
+          },
+          {
+            "title": "MMU3 Community Forum",
+            "url": "https://forum.prusa3d.com/forum/original-prusa-i3-mmu3-general-discussion-announcements-and-releases/"
+          },
+          {
+            "title": "MMU3 Spare Parts",
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+          },
+          {
+            "title": "MMU3 Support Ticket Form",
+            "url": "https://help.prusa3d.com/article/get-support_1907"
+          },
+          {
+            "title": "Multi-material PrusaSlicer profiles",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          }
         ],
         "topics": [
-          { "title": "Multi-material printing",  "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
-          { "title": "MMU3 assembly",            "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757" },
-          { "title": "Filament loading",         "url": "https://help.prusa3d.com/article/mmu3-setup-and-inspection_688142" },
-          { "title": "Troubleshooting MMU3",     "url": "https://help.prusa3d.com/product/mmu3/troubleshooting_194" },
-          { "title": "PrusaSlicer multi-material","url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
-          { "title": "Firmware updates",         "url": "https://help.prusa3d.com/article/how-to-update-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s-xl_453086" }
+          {
+            "title": "Multi-material printing",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          },
+          {
+            "title": "MMU3 assembly",
+            "url": "https://help.prusa3d.com/manual/mmu3-assembly-mk3s-mk3-5-mk3-9-s-mk4-s-core_1757"
+          },
+          {
+            "title": "Filament loading",
+            "url": "https://help.prusa3d.com/article/mmu3-setup-and-inspection_688142"
+          },
+          {
+            "title": "Troubleshooting MMU3",
+            "url": "https://help.prusa3d.com/product/mmu3/troubleshooting_194"
+          },
+          {
+            "title": "PrusaSlicer multi-material",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          },
+          {
+            "title": "Firmware updates",
+            "url": "https://help.prusa3d.com/article/how-to-update-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s-xl_453086"
+          }
         ]
       }
     },
-
     "drybox": {
       "totalResults": 18,
-      "tabs": { "all": 18, "products": 15, "articles": 2, "blog": 1, "models": 0 },
+      "tabs": {
+        "all": 18,
+        "products": 15,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
       "highlighted": {
         "title": "Prusa USS Drybox",
         "description": "Compact filament drybox for one spool. Built-in hygrometer, optimized airflow, and easy spool change. The reliable storage choice for hygroscopic materials like PETG, nylon and TPU.",
         "badges": [
-          { "text": "Best match", "variant": "accent" },
-          { "text": "Leadtime 6 weeks", "variant": "warn" }
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "Leadtime 6 weeks",
+            "variant": "warn"
+          }
         ],
         "price": "CZK 779",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/3f6deafb-6b62-4d06-91c1-4b48620d4438.jpg",
         "url": "https://www.prusa3d.com/product/prusa-uss-drybox/"
       },
       "goods": [
-        { "name": "Prusa USS Drybox",                                             "price": "CZK 779",    "stock": "low", "stockLabel": "Estimated leadtime 6 weeks", "url": "https://www.prusa3d.com/product/prusa-uss-drybox/" },
-        { "name": "Prusa Pro Filament Drybox",                                    "price": "CZK 5,990",  "stock": "low", "stockLabel": "High Demand · Leadtime 1–2 weeks", "url": "https://www.prusa3d.com/product/prusa-pro-filament-drybox/" },
-        { "name": "Memmert UF30 Filament Dryer",                                  "price": "CZK 46,269", "stock": "low", "stockLabel": "High Demand · Leadtime 5–6 weeks", "url": "https://www.prusa3d.com/product/memmert-uf30-filament-dryer/" },
-        { "name": "Memmert UF55 Filament Dryer",                                  "price": "CZK 56,591", "stock": "low", "stockLabel": "High Demand · Leadtime 5–6 weeks", "url": "https://www.prusa3d.com/product/memmert-uf55-filament-dryer/" },
-        { "name": "Desiccant for Prusa Pro Filament Drybox",                      "price": "CZK 149",    "stock": "ok",  "url": "https://www.prusa3d.com/product/desiccant-for-prusa-pro-filament-drybox-2/" },
-        { "name": "Prusa USS Drybox (Large)",                                     "price": "CZK 979",    "stock": "low", "stockLabel": "Estimated leadtime 6 weeks", "url": "https://www.prusa3d.com/product/prusa-uss-drybox/" },
-        { "name": "Prusament PC Space Grade Black 850g (NFC)",                    "price": "CZK 5,990",  "stock": "ok",  "url": "https://www.prusa3d.com/product/prusament-pc-space-grade-black-850g-nfc/" },
-        { "name": "Prusament PC Space Grade Black 25g sample",                    "price": "CZK 249",    "stock": "ok",  "url": "https://www.prusa3d.com/product/prusament-pc-space-grade-black-25g-sample/" },
-        { "name": "Fiberthree F3 PA-GF30 Pro 30% Glass fiber Filament 500g",      "price": "CZK 2,449",  "stock": "ok",  "stockLabel": "In stock · Prep 1 week", "url": "https://www.prusa3d.com/product/fiberthree-f3-pa-gf30-pro-30-glass-fiber-filament-500g/" },
-        { "name": "Filament sensor",                                              "price": "CZK 990",    "stock": "ok",  "url": "https://www.prusa3d.com/product/filament-sensor-2/" },
-        { "name": "Prusament TPU 95A Jet Black 500g (NFC) – Multipack 10 pcs",    "price": "CZK 8,990",  "stock": "low", "stockLabel": "Estimated leadtime 1 week", "badge": "10×", "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/" },
-        { "name": "Prusament TPU 95A Natural 500g (NFC) – Multipack 10 pcs",      "price": "CZK 8,990",  "stock": "low", "stockLabel": "Estimated leadtime 1 week", "badge": "10×", "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/" },
-        { "name": "Prusament PEI 1010 Natural 500g (NFC) – Multipack 10 pcs",     "price": "CZK 34,990", "stock": "low", "stockLabel": "Estimated leadtime 1 week", "badge": "10×", "url": "https://www.prusa3d.com/product/prusament-pei-1010-natural-500-g/" },
-        { "name": "Prusament TPU 95A Lipstick Red 500g (NFC) – Multipack 10 pcs", "price": "CZK 8,990",  "stock": "low", "stockLabel": "Estimated leadtime 1 week", "badge": "10×", "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/" },
-        { "name": "Prusament TPU 95A Ultramarine Blue 500g (NFC) – Multipack 10 pcs", "price": "CZK 8,990", "stock": "low", "stockLabel": "Estimated leadtime 1 week", "badge": "10×", "url": "https://www.prusa3d.com/category/prusament-tpu/" }
+        {
+          "name": "Prusa USS Drybox",
+          "price": "CZK 779",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 6 weeks",
+          "url": "https://www.prusa3d.com/product/prusa-uss-drybox/",
+          "image": "https://www.prusa3d.com/content/images/product/3f6deafb-6b62-4d06-91c1-4b48620d4438.jpg"
+        },
+        {
+          "name": "Prusa Pro Filament Drybox",
+          "price": "CZK 5,990",
+          "stock": "low",
+          "stockLabel": "High Demand · Leadtime 1–2 weeks",
+          "url": "https://www.prusa3d.com/product/prusa-pro-filament-drybox/",
+          "image": "https://www.prusa3d.com/content/images/product/2c1f07ab-bc36-4287-9364-60aab9679f85.jpg"
+        },
+        {
+          "name": "Memmert UF30 Filament Dryer",
+          "price": "CZK 46,269",
+          "stock": "low",
+          "stockLabel": "High Demand · Leadtime 5–6 weeks",
+          "url": "https://www.prusa3d.com/product/memmert-uf30-filament-dryer/",
+          "image": "https://www.prusa3d.com/content/images/product/4fae9b64-4124-467d-af9a-cea6f8aaadc5.png"
+        },
+        {
+          "name": "Memmert UF55 Filament Dryer",
+          "price": "CZK 56,591",
+          "stock": "low",
+          "stockLabel": "High Demand · Leadtime 5–6 weeks",
+          "url": "https://www.prusa3d.com/product/memmert-uf55-filament-dryer/",
+          "image": "https://www.prusa3d.com/content/images/product/9fc57b08-1600-4ce2-9b94-5540084f2c08.png"
+        },
+        {
+          "name": "Desiccant for Prusa Pro Filament Drybox",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/desiccant-for-prusa-pro-filament-drybox-2/",
+          "image": "https://www.prusa3d.com/content/images/product/caaf499c-24ca-4121-b74b-5729f4dc107b.jpg"
+        },
+        {
+          "name": "Prusa USS Drybox (Large)",
+          "price": "CZK 979",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 6 weeks",
+          "url": "https://www.prusa3d.com/product/prusa-uss-drybox/",
+          "image": "https://www.prusa3d.com/content/images/product/3f6deafb-6b62-4d06-91c1-4b48620d4438.jpg"
+        },
+        {
+          "name": "Prusament PC Space Grade Black 850g (NFC)",
+          "price": "CZK 5,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pc-space-grade-black-850g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/d6ab4edd-ad7b-431e-b0c2-d41abccc598a.jpg"
+        },
+        {
+          "name": "Prusament PC Space Grade Black 25g sample",
+          "price": "CZK 249",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pc-space-grade-black-25g-sample/",
+          "image": "https://www.prusa3d.com/content/images/product/b91b1d70-fa17-4193-80a8-f067efce40ee.jpg"
+        },
+        {
+          "name": "Fiberthree F3 PA-GF30 Pro 30% Glass fiber Filament 500g",
+          "price": "CZK 2,449",
+          "stock": "ok",
+          "stockLabel": "In stock · Prep 1 week",
+          "url": "https://www.prusa3d.com/product/fiberthree-f3-pa-gf30-pro-30-glass-fiber-filament-500g/",
+          "image": "https://www.prusa3d.com/content/images/product/5744.jpg"
+        },
+        {
+          "name": "Filament sensor",
+          "price": "CZK 990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/filament-sensor-2/",
+          "image": "https://www.prusa3d.com/content/images/product/afb4ae86-17de-4d31-bc65-cd75fe70b968.jpg"
+        },
+        {
+          "name": "Prusament TPU 95A Jet Black 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
+        },
+        {
+          "name": "Prusament TPU 95A Natural 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
+          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
+        },
+        {
+          "name": "Prusament PEI 1010 Natural 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 34,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-pei-1010-natural-500-g/",
+          "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
+        },
+        {
+          "name": "Prusament TPU 95A Lipstick Red 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
+        },
+        {
+          "name": "Prusament TPU 95A Ultramarine Blue 500g (NFC) – Multipack 10 pcs",
+          "price": "CZK 8,990",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
+          "badge": "10×",
+          "url": "https://www.prusa3d.com/category/prusament-tpu/"
+        }
       ],
       "articles": [
         {
           "title": "Prusa USS Drybox",
           "description": "Hardware overview and setup guide for the USS Drybox. Covers humidity control, spool loading, and recommended storage conditions for hygroscopic filaments.",
-          "badges": [{ "text": "Knowledge base", "variant": "info" }],
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            }
+          ],
           "url": "https://help.prusa3d.com/article/prusa-uss-drybox_1014382"
         },
         {
           "title": "Prusa Pro Filament Drybox",
           "description": "Professional drybox documentation: hardware specs, dehumidifier operation, hygrometer calibration, and maintenance schedule for 24/7 production environments.",
-          "badges": [{ "text": "Knowledge base", "variant": "info" }, { "text": "Hardware" }],
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "Hardware"
+            }
+          ],
           "url": "https://help.prusa3d.com/article/prusa-pro-filament-drybox_725964"
         }
       ],
@@ -267,58 +741,130 @@
         {
           "title": "Filament dryboxes and alternative spool holders — not only for MMU2S",
           "description": "Why filament moisture matters, how to choose a drybox, and DIY alternatives. We cover hygrometer placement, desiccant types, and storage best practices for nylon, PETG and TPU.",
-          "badges": [{ "text": "Materials", "variant": "info" }, { "text": "Guide" }],
+          "badges": [
+            {
+              "text": "Materials",
+              "variant": "info"
+            },
+            {
+              "text": "Guide"
+            }
+          ],
           "url": "https://blog.prusa3d.com/dryboxes-and-alternative-spool-holders-not-only-for-multimaterial-upgrade_30525/"
         }
       ],
       "sidebar": {
         "popularCategories": [
-          { "title": "Filament storage & dryboxes", "url": "https://help.prusa3d.com/article/drying-filament_332086" },
-          { "title": "Prusament filaments",         "url": "https://www.prusa3d.com/category/prusament/" }
+          {
+            "title": "Filament storage & dryboxes",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Prusament filaments",
+            "url": "https://www.prusa3d.com/category/prusament/"
+          }
         ],
         "trendingSearches": [
-          { "label": "drybox" },
-          { "label": "uss drybox" },
-          { "label": "prusa uss drybox" }
+          {
+            "label": "drybox"
+          },
+          {
+            "label": "uss drybox"
+          },
+          {
+            "label": "prusa uss drybox"
+          }
         ],
         "usefulLinks": [
-          { "title": "Filament storage guide",          "url": "https://help.prusa3d.com/article/drying-filament_332086" },
-          { "title": "Humidity & 3D printing FAQ",      "url": "https://help.prusa3d.com/article/drying-filament_332086" },
-          { "title": "Drybox community forum",          "url": "https://forum.prusa3d.com/forum/english-forum-general-discussion-announcements-and-releases/" }
+          {
+            "title": "Filament storage guide",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Humidity & 3D printing FAQ",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Drybox community forum",
+            "url": "https://forum.prusa3d.com/forum/english-forum-general-discussion-announcements-and-releases/"
+          }
         ],
         "topics": [
-          { "title": "Filament storage",                "url": "https://help.prusa3d.com/article/drying-filament_332086" },
-          { "title": "Material handling",               "url": "https://help.prusa3d.com/en/materials" },
-          { "title": "Print quality troubleshooting",   "url": "https://help.prusa3d.com/article/first-layer-issues_1804" },
-          { "title": "Hygroscopic materials",           "url": "https://help.prusa3d.com/article/polyamide-nylon_167188" }
+          {
+            "title": "Filament storage",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Material handling",
+            "url": "https://help.prusa3d.com/en/materials"
+          },
+          {
+            "title": "Print quality troubleshooting",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          },
+          {
+            "title": "Hygroscopic materials",
+            "url": "https://help.prusa3d.com/article/polyamide-nylon_167188"
+          }
         ]
       }
     },
-
     "indx": {
       "totalResults": 12,
-      "tabs": { "all": 12, "products": 2, "articles": 1, "blog": 2, "models": 7 },
+      "tabs": {
+        "all": 12,
+        "products": 2,
+        "articles": 1,
+        "blog": 2,
+        "models": 7
+      },
       "highlighted": {
         "title": "INDX 8-Tool Conversion Kit for CORE One/+",
         "description": "Add 8-material printing to your Prusa CORE One/+. Includes 8 toolheads, dock, and full installation guide. Compatible with PrusaSlicer 2.7+.",
         "badges": [
-          { "text": "Limited", "variant": "accent" },
-          { "text": "Out of stock", "variant": "warn" },
-          { "text": "Pre-order" }
+          {
+            "text": "Limited",
+            "variant": "accent"
+          },
+          {
+            "text": "Out of stock",
+            "variant": "warn"
+          },
+          {
+            "text": "Pre-order"
+          }
         ],
         "price": "CZK 21,990",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/edbd1f2a-0117-4cb5-b5a5-4f27f84c5d7a.jpg",
         "url": "https://www.prusa3d.com/product/indx-conversion-kit-8-toolhead/"
       },
       "goods": [
-        { "name": "INDX 8-Tool Conversion Kit for CORE One/+", "price": "CZK 21,990", "stock": "none", "badge": "Limited", "url": "https://www.prusa3d.com/product/indx-conversion-kit-8-toolhead/" },
-        { "name": "INDX 4-Tool Conversion Kit for CORE One/+", "price": "CZK 15,990", "stock": "none", "url": "https://www.prusa3d.com/product/indx-conversion-kit/" }
+        {
+          "name": "INDX 8-Tool Conversion Kit for CORE One/+",
+          "price": "CZK 21,990",
+          "stock": "none",
+          "badge": "Limited",
+          "url": "https://www.prusa3d.com/product/indx-conversion-kit-8-toolhead/",
+          "image": "https://www.prusa3d.com/content/images/product/edbd1f2a-0117-4cb5-b5a5-4f27f84c5d7a.jpg"
+        },
+        {
+          "name": "INDX 4-Tool Conversion Kit for CORE One/+",
+          "price": "CZK 15,990",
+          "stock": "none",
+          "url": "https://www.prusa3d.com/product/indx-conversion-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/96360096-2f02-404a-8d4f-8daa8c7f0629.jpg"
+        }
       ],
       "articles": [
         {
           "title": "Bondtech INDX — Add 8-Material Printing to Your Prusa CORE One+",
           "description": "Step-by-step setup guide for INDX conversion kits. Covers unboxing, mechanical installation, firmware updates, and PrusaSlicer multi-material profiles.",
-          "badges": [{ "text": "Knowledge base", "variant": "info" }],
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            }
+          ],
           "url": "https://www.prusa3d.com/p/bondtech-indx/"
         }
       ],
@@ -326,89 +872,233 @@
         {
           "title": "Prusa CORE One INDX — Unmatched Toolchanger With 8 Nozzles — Orders Now Open!",
           "description": "Today we're opening orders for the INDX conversion kit. Eight independent toolheads, automatic tool docking, and seamless PrusaSlicer integration. Here's everything you need to know.",
-          "badges": [{ "text": "News", "variant": "accent" }, { "text": "INDX" }, { "text": "CORE One" }],
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "INDX"
+            },
+            {
+              "text": "CORE One"
+            }
+          ],
           "url": "https://blog.prusa3d.com/prusa-core-one-indx-orders-now-open_134915/"
         },
         {
           "title": "Introducing the INDX! Fast and affordable 8-material printing exclusively on the CORE One",
           "description": "A deep-dive into what makes INDX different from MMU3 and other multi-material systems. Build quality, speed comparisons, and material profiles.",
-          "badges": [{ "text": "Engineering" }, { "text": "INDX" }],
+          "badges": [
+            {
+              "text": "Engineering"
+            },
+            {
+              "text": "INDX"
+            }
+          ],
           "url": "https://blog.prusa3d.com/introducing-the-indx-fast-and-affordable-8-material-printing-exclusively-on-the-core-one_125242/"
         }
       ],
       "sidebar": {
         "popularCategories": [
-          { "title": "CORE One/+ INDX Conversion Kit", "url": "https://www.prusa3d.com/category/core-one-indx-conversion-kit/" }
+          {
+            "title": "CORE One/+ INDX Conversion Kit",
+            "url": "https://www.prusa3d.com/category/core-one-indx-conversion-kit/"
+          }
         ],
         "trendingSearches": [
-          { "label": "INDX" },
-          { "label": "index" },
-          { "label": "indx nozzle" }
+          {
+            "label": "INDX"
+          },
+          {
+            "label": "index"
+          },
+          {
+            "label": "indx nozzle"
+          }
         ],
         "usefulLinks": [
-          { "title": "INDX Setup Manual",                "url": "https://www.prusa3d.com/p/bondtech-indx/" },
-          { "title": "INDX Community Forum",             "url": "https://forum.prusa3d.com/forum/prusa-indx-general-discussion-announcements-and-releases/" },
-          { "title": "Sample multi-material G-codes",    "url": "https://help.prusa3d.com/article/sample-g-codes_529630" },
-          { "title": "Multi-material PrusaSlicer profiles","url": "https://help.prusa3d.com/category/multi-material-slicing_881" }
+          {
+            "title": "INDX Setup Manual",
+            "url": "https://www.prusa3d.com/p/bondtech-indx/"
+          },
+          {
+            "title": "INDX Community Forum",
+            "url": "https://forum.prusa3d.com/forum/prusa-indx-general-discussion-announcements-and-releases/"
+          },
+          {
+            "title": "Sample multi-material G-codes",
+            "url": "https://help.prusa3d.com/article/sample-g-codes_529630"
+          },
+          {
+            "title": "Multi-material PrusaSlicer profiles",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          }
         ],
         "topics": [
-          { "title": "Multi-material printing",      "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
-          { "title": "Toolchanger maintenance",      "url": "https://www.prusa3d.com/p/bondtech-indx/" },
-          { "title": "PrusaSlicer multi-material",   "url": "https://help.prusa3d.com/category/multi-material-slicing_881" },
-          { "title": "Filament compatibility",       "url": "https://help.prusa3d.com/en/materials" },
-          { "title": "Print bed adhesion",           "url": "https://help.prusa3d.com/article/first-layer-issues_1804" }
+          {
+            "title": "Multi-material printing",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          },
+          {
+            "title": "Toolchanger maintenance",
+            "url": "https://www.prusa3d.com/p/bondtech-indx/"
+          },
+          {
+            "title": "PrusaSlicer multi-material",
+            "url": "https://help.prusa3d.com/category/multi-material-slicing_881"
+          },
+          {
+            "title": "Filament compatibility",
+            "url": "https://help.prusa3d.com/en/materials"
+          },
+          {
+            "title": "Print bed adhesion",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          }
         ]
       }
     },
-
     "core one": {
       "totalResults": 234,
-      "tabs": { "all": 234, "products": 18, "articles": 41, "blog": 12, "models": 163 },
+      "tabs": {
+        "all": 234,
+        "products": 18,
+        "articles": 41,
+        "blog": 12,
+        "models": 163
+      },
       "highlighted": {
         "title": "New Prusa CORE One+ 3D Printer",
         "description": "The next evolution of our loved CoreXY printer — ready for INDX. Auto material switching, faster prints, quieter operation.",
         "badges": [
-          { "text": "New", "variant": "accent" },
-          { "text": "In stock", "variant": "success" },
-          { "text": "Ships in 24h" }
+          {
+            "text": "New",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          },
+          {
+            "text": "Ships in 24h"
+          }
         ],
         "price": "CZK 32,990",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/f41749a9-a40d-4854-8b2b-7c39c5f4e02f.jpg",
         "url": "https://www.prusa3d.com/product/prusa-core-one/"
       },
       "goods": [
-        { "name": "Prusa CORE One L",                "price": "CZK 44,900", "stock": "ok",  "badge": "New", "url": "https://www.prusa3d.com/product/prusa-core-one-l-2/" },
-        { "name": "Prusa CORE One+ kit",             "price": "CZK 25,990", "stock": "ok",  "url": "https://www.prusa3d.com/product/prusa-core-one-kit/" },
-        { "name": "Prusa CORE One+ assembled",       "price": "CZK 38,990", "stock": "low", "url": "https://www.prusa3d.com/product/prusa-core-one/" },
-        { "name": "CORE One Steel Sheet Set",        "price": "CZK 1,990",  "stock": "ok",  "url": "https://www.prusa3d.com/product/core-one-textured-powder-coated-print-sheet/" },
-        { "name": "CORE One Nozzle 0.4mm",           "price": "CZK 390",    "stock": "ok",  "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-0-4-mm/" },
-        { "name": "Prusament PLA Galaxy Black 1kg",  "price": "CZK 790",    "stock": "ok",  "url": "https://www.prusa3d.com/product/prusament-pla-prusa-galaxy-black-1kg/" },
-        { "name": "Prusament PETG Anthracite 1kg",   "price": "CZK 790",    "stock": "ok",  "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-1kg/" },
-        { "name": "Nextruder for CORE One",          "price": "CZK 3,990",  "stock": "low", "url": "https://www.prusa3d.com/product/nextruder-heaterblock/" }
+        {
+          "name": "Prusa CORE One L",
+          "price": "CZK 44,900",
+          "stock": "ok",
+          "badge": "New",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-l-2/",
+          "image": "https://www.prusa3d.com/content/images/product/e94d96e8-a2b4-4298-b3e8-c284a6c7b3de.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ kit",
+          "price": "CZK 25,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-core-one-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/94d5254c-e88b-46b1-9c13-20367b7e9b5a.jpg"
+        },
+        {
+          "name": "Prusa CORE One+ assembled",
+          "price": "CZK 38,990",
+          "stock": "low",
+          "url": "https://www.prusa3d.com/product/prusa-core-one/",
+          "image": "https://www.prusa3d.com/content/images/product/f41749a9-a40d-4854-8b2b-7c39c5f4e02f.jpg"
+        },
+        {
+          "name": "CORE One Steel Sheet Set",
+          "price": "CZK 1,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/core-one-textured-powder-coated-print-sheet/",
+          "image": "https://www.prusa3d.com/content/images/product/e776d462-c825-4d06-b81c-f82dc6b2ee6c.jpg"
+        },
+        {
+          "name": "CORE One Nozzle 0.4mm",
+          "price": "CZK 390",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-0-4-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/5777.jpg"
+        },
+        {
+          "name": "Prusament PLA Galaxy Black 1kg",
+          "price": "CZK 790",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-prusa-galaxy-black-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/c05d2e52-b362-4c8e-847a-6615aec730b3.jpg"
+        },
+        {
+          "name": "Prusament PETG Anthracite 1kg",
+          "price": "CZK 790",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/e654692e-4bca-40e2-a8c8-e2dbfbdf823e.jpg"
+        },
+        {
+          "name": "Nextruder for CORE One",
+          "price": "CZK 3,990",
+          "stock": "low",
+          "url": "https://www.prusa3d.com/product/nextruder-heaterblock/",
+          "image": "https://www.prusa3d.com/content/images/product/b01fd2be-1499-4ffd-96f3-f1528cd0e1ff.jpg"
+        }
       ],
       "articles": [
         {
           "title": "CORE One — Getting Started Guide",
           "description": "Unboxing, first calibration, and your first print. Covers cable routing, build plate prep, and PrusaSlicer profile selection.",
-          "badges": [{ "text": "Manual" }, { "text": "Getting started", "variant": "info" }],
+          "badges": [
+            {
+              "text": "Manual"
+            },
+            {
+              "text": "Getting started",
+              "variant": "info"
+            }
+          ],
           "url": "https://help.prusa3d.com/product/core-one/using-the-printer_202"
         },
         {
           "title": "6.4.0 (3.0.3) CORE One firmware release",
           "description": "Improved Input Shaper auto-tuning, chamber temperature control, and new pause-mid-print behavior for filament changes.",
-          "badges": [{ "text": "Firmware", "variant": "success" }, { "text": "Release notes" }],
+          "badges": [
+            {
+              "text": "Firmware",
+              "variant": "success"
+            },
+            {
+              "text": "Release notes"
+            }
+          ],
           "url": "https://help.prusa3d.com/downloads/core-one"
         },
         {
           "title": "ABS, ASA and Nylon on CORE One — Chamber Temperature Guide",
           "description": "CORE One heats chamber passively to 55 °C. Settings for engineering-grade materials and how to tune per filament brand.",
-          "badges": [{ "text": "Knowledge base", "variant": "info" }, { "text": "Materials" }],
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "Materials"
+            }
+          ],
           "url": "https://help.prusa3d.com/product/core-one/material-guide_220"
         },
         {
           "title": "Calibration and maintenance schedule for CORE One",
           "description": "Recommended monthly and quarterly checks: belt tension, idler condition, bearing lubrication, and Z-axis re-leveling.",
-          "badges": [{ "text": "Maintenance" }],
+          "badges": [
+            {
+              "text": "Maintenance"
+            }
+          ],
           "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
         }
       ],
@@ -416,57 +1106,143 @@
         {
           "title": "Exploring CORE One+: New Features, Upgrades, INDX",
           "description": "A deep-dive into what makes the CORE One+ different from CORE One. AMS-style material switching, chamber control, and the upcoming INDX dock.",
-          "badges": [{ "text": "News", "variant": "accent" }, { "text": "CORE One" }],
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "CORE One"
+            }
+          ],
           "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/"
         },
         {
           "title": "Behind the design of CORE One — interview with the engineering team",
           "description": "Why CoreXY, why now, and what we learned from MK4. The team behind the printer talks frame stiffness, belt routing and acoustics.",
-          "badges": [{ "text": "Engineering" }, { "text": "CORE One" }],
+          "badges": [
+            {
+              "text": "Engineering"
+            },
+            {
+              "text": "CORE One"
+            }
+          ],
           "url": "https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/"
         },
         {
           "title": "Top 10 community prints made on CORE One in March",
           "description": "A roundup of the most impressive things makers printed on CORE One last month — drone frames, articulated dragons, lithophanes.",
-          "badges": [{ "text": "Community", "variant": "success" }, { "text": "CORE One" }],
+          "badges": [
+            {
+              "text": "Community",
+              "variant": "success"
+            },
+            {
+              "text": "CORE One"
+            }
+          ],
           "url": "https://blog.prusa3d.com/category/featured_8/"
         },
         {
           "title": "From MK4 to CORE One — migration guide for power users",
           "description": "Bring your PrusaSlicer profiles, settings, and bed sheets across. Differences in build volume, speed, and accuracy benchmarks.",
-          "badges": [{ "text": "Guide" }],
+          "badges": [
+            {
+              "text": "Guide"
+            }
+          ],
           "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/"
         }
       ],
       "sidebar": {
         "popularCategories": [
-          { "title": "Original Prusa CORE One",      "url": "https://www.prusa3d.com/category/core-one/" },
-          { "title": "CORE One / CORE One+",         "url": "https://www.prusa3d.com/category/prusa-core-one-l/" },
-          { "title": "CORE One, MK4S, MK4, MK3S/+",  "url": "https://www.prusa3d.com/category/core-one-mk4-mk3-s-mk2-5-s/" },
-          { "title": "CORE One Accessories & Sheets","url": "https://www.prusa3d.com/category/core-one-spare-parts/" }
+          {
+            "title": "Original Prusa CORE One",
+            "url": "https://www.prusa3d.com/category/core-one/"
+          },
+          {
+            "title": "CORE One / CORE One+",
+            "url": "https://www.prusa3d.com/category/prusa-core-one-l/"
+          },
+          {
+            "title": "CORE One, MK4S, MK4, MK3S/+",
+            "url": "https://www.prusa3d.com/category/core-one-mk4-mk3-s-mk2-5-s/"
+          },
+          {
+            "title": "CORE One Accessories & Sheets",
+            "url": "https://www.prusa3d.com/category/core-one-spare-parts/"
+          }
         ],
         "trendingSearches": [
-          { "label": "core one+" },
-          { "label": "core one kit" },
-          { "label": "nextruder" },
-          { "label": "core one sheets" }
+          {
+            "label": "core one+"
+          },
+          {
+            "label": "core one kit"
+          },
+          {
+            "label": "nextruder"
+          },
+          {
+            "label": "core one sheets"
+          }
         ],
         "usefulLinks": [
-          { "title": "CORE One Community Forum",  "url": "https://forum.prusa3d.com/forum/prusa-core-one-general-discussion-announcements-and-releases/" },
-          { "title": "CORE One Printable Parts",  "url": "https://www.printables.com/" },
-          { "title": "CORE One Spare Parts",      "url": "https://www.prusa3d.com/category/core-one-spare-parts/" },
-          { "title": "CORE One Support Ticket Form","url": "https://help.prusa3d.com/article/get-support_1907" },
-          { "title": "Sample G-codes",            "url": "https://help.prusa3d.com/article/sample-g-codes_529630" }
+          {
+            "title": "CORE One Community Forum",
+            "url": "https://forum.prusa3d.com/forum/prusa-core-one-general-discussion-announcements-and-releases/"
+          },
+          {
+            "title": "CORE One Printable Parts",
+            "url": "https://www.printables.com/"
+          },
+          {
+            "title": "CORE One Spare Parts",
+            "url": "https://www.prusa3d.com/category/core-one-spare-parts/"
+          },
+          {
+            "title": "CORE One Support Ticket Form",
+            "url": "https://help.prusa3d.com/article/get-support_1907"
+          },
+          {
+            "title": "Sample G-codes",
+            "url": "https://help.prusa3d.com/article/sample-g-codes_529630"
+          }
         ],
         "topics": [
-          { "title": "Printer maintenance",   "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247" },
-          { "title": "Calibration",           "url": "https://help.prusa3d.com/article/first-layer-calibration-i3_112364" },
-          { "title": "About your printer",    "url": "https://help.prusa3d.com/product/core-one" },
-          { "title": "Using the printer",     "url": "https://help.prusa3d.com/product/core-one/using-the-printer_202" },
-          { "title": "Troubleshooting",       "url": "https://help.prusa3d.com/product/core-one/troubleshooting_194" },
-          { "title": "3rd party accessories", "url": "https://www.prusa3d.com/category/core-one-spare-parts/" },
-          { "title": "PrusaSlicer",           "url": "https://help.prusa3d.com/product/prusaslicer_204" },
-          { "title": "Printables",            "url": "https://www.printables.com/" }
+          {
+            "title": "Printer maintenance",
+            "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
+          },
+          {
+            "title": "Calibration",
+            "url": "https://help.prusa3d.com/article/first-layer-calibration-i3_112364"
+          },
+          {
+            "title": "About your printer",
+            "url": "https://help.prusa3d.com/product/core-one"
+          },
+          {
+            "title": "Using the printer",
+            "url": "https://help.prusa3d.com/product/core-one/using-the-printer_202"
+          },
+          {
+            "title": "Troubleshooting",
+            "url": "https://help.prusa3d.com/product/core-one/troubleshooting_194"
+          },
+          {
+            "title": "3rd party accessories",
+            "url": "https://www.prusa3d.com/category/core-one-spare-parts/"
+          },
+          {
+            "title": "PrusaSlicer",
+            "url": "https://help.prusa3d.com/product/prusaslicer_204"
+          },
+          {
+            "title": "Printables",
+            "url": "https://www.printables.com/"
+          }
         ]
       }
     }
