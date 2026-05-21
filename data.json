@@ -308,16 +308,14 @@
         {
           "name": "Prusa CORE One+ Advanced Filtration BUNDLE",
           "price": "CZK 35,838",
-          "stock": "none",
-          "stockLabel": "Out of stock",
+          "stock": "ok",
           "url": "https://www.prusa3d.com/product/prusa-core-one-advanced-filtration-bundle/",
           "image": "https://www.prusa3d.com/content/images/product/33cfdd38-c41a-49e0-9d85-21111cfb75e7.jpg"
         },
         {
           "name": "Prusa CORE One+ kit Advanced Filtration BUNDLE",
           "price": "CZK 28,838",
-          "stock": "none",
-          "stockLabel": "Out of stock",
+          "stock": "ok",
           "url": "https://www.prusa3d.com/product/prusa-core-one-kit-advanced-filtration-bundle/",
           "image": "https://www.prusa3d.com/content/images/product/8eeae9af-474d-4b52-85f6-f31a71f2280f.jpg"
         },
@@ -855,16 +853,18 @@
         {
           "name": "Prusament TPU 95A Lipstick Red 25g sample",
           "price": "CZK 89",
-          "stock": "ok",
+          "stock": "low",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
-          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
+          "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png",
+          "stockLabel": "Estimated leadtime 1 week"
         },
         {
           "name": "Prusament TPU 95A Natural 25g sample",
           "price": "CZK 89",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
-          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
+          "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "Prusament TPU 95A Natural 500g (NFC)",
@@ -885,16 +885,15 @@
         {
           "name": "Prusament TPU 95A Lipstick Red 500g (NFC)",
           "price": "CZK 899",
-          "stock": "none",
-          "stockLabel": "Out of stock",
+          "stock": "low",
+          "stockLabel": "Estimated leadtime 1 week",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-lipstick-red-500g-nfc-multipack-10-pcs/",
           "image": "https://www.prusa3d.com/content/images/product/2f462124-26f7-4fe1-ba95-c554f0ef8515.png"
         },
         {
           "name": "Prusament TPU 95A Jet Black 500g (NFC) – Multipack 10 pcs",
           "price": "CZK 8,990",
-          "stock": "low",
-          "stockLabel": "Estimated leadtime 1 week",
+          "stock": "ok",
           "badge": "10×",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
           "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
@@ -902,8 +901,8 @@
         {
           "name": "Prusament TPU 95A Natural 500g (NFC) – Multipack 10 pcs",
           "price": "CZK 8,990",
-          "stock": "low",
-          "stockLabel": "Estimated leadtime 1 week",
+          "stock": "none",
+          "stockLabel": "Out of stock",
           "badge": "10×",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
           "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
@@ -929,16 +928,18 @@
         {
           "name": "Bedrock 3D TPU 64D Black 750g",
           "price": "CZK 1,199",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/bedrock-3d-tpu-64d-black-750g/",
-          "image": "https://www.prusa3d.com/content/images/product/8991c72c-138a-4b39-9ec8-b61f9ed56d23.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/8991c72c-138a-4b39-9ec8-b61f9ed56d23.jpg",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "Forward AM Ultrafuse TPU 95A Black 750g",
           "price": "CZK 1,199",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/forward-am-ultrafuse-tpu-95a-black-750g/",
-          "image": "https://www.prusa3d.com/content/images/product/f3b86b4c-9fae-4062-be53-442d47e4d3ec.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/f3b86b4c-9fae-4062-be53-442d47e4d3ec.jpg",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "CORE One L PP powder-coated Print Sheet",
@@ -2679,9 +2680,10 @@
         {
           "name": "Original Prusa MMU3 Enclosed (for CORE One)",
           "price": "CZK 9,590",
-          "stock": "ok",
+          "stock": "low",
           "url": "https://www.prusa3d.com/product/original-prusa-mmu3-enclosed-for-core-one-full-kit/",
-          "image": "https://www.prusa3d.com/content/images/product/eb418315-b903-4866-a6d2-d0c44e4ce81d.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/eb418315-b903-4866-a6d2-d0c44e4ce81d.jpg",
+          "stockLabel": "High Demand - Estimated leadtime 1–2 weeks"
         },
         {
           "name": "Original Prusa MK4S 3D Printer kit",
@@ -2735,9 +2737,10 @@
         {
           "name": "PTFE 4×2.5×650",
           "price": "CZK 99",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/ptfe-4x2-5x650/",
-          "image": "https://www.prusa3d.com/content/images/product/b7dd4b18-0b18-4d09-ae3f-5dcd158f0ebf.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/b7dd4b18-0b18-4d09-ae3f-5dcd158f0ebf.jpg",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "MMU3 Printer Cable 800mm",
@@ -2749,9 +2752,10 @@
         {
           "name": "PTFE 4×2.5×19",
           "price": "CZK 29",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/ptfe-4x2-5x19/",
-          "image": "https://www.prusa3d.com/content/images/product/4d01d685-6315-41eb-b4f0-674f2c55ad93.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/4d01d685-6315-41eb-b4f0-674f2c55ad93.jpg",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "Coupler 5mm",
@@ -3043,8 +3047,7 @@
         {
           "name": "Prusament TPU 95A Jet Black 500g (NFC) – Multipack 10 pcs",
           "price": "CZK 8,990",
-          "stock": "low",
-          "stockLabel": "Estimated leadtime 1 week",
+          "stock": "ok",
           "badge": "10×",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/",
           "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png"
@@ -3052,8 +3055,8 @@
         {
           "name": "Prusament TPU 95A Natural 500g (NFC) – Multipack 10 pcs",
           "price": "CZK 8,990",
-          "stock": "low",
-          "stockLabel": "Estimated leadtime 1 week",
+          "stock": "none",
+          "stockLabel": "Out of stock",
           "badge": "10×",
           "url": "https://www.prusa3d.com/product/prusament-tpu-95a-natural-500g/",
           "image": "https://www.prusa3d.com/content/images/product/670ea691-e2d6-4814-8f74-aa9a0e236f11.png"
@@ -3374,10 +3377,11 @@
         {
           "name": "Prusa CORE One L",
           "price": "CZK 44,900",
-          "stock": "ok",
+          "stock": "low",
           "badge": "New",
           "url": "https://www.prusa3d.com/product/prusa-core-one-l-2/",
-          "image": "https://www.prusa3d.com/content/images/product/e94d96e8-a2b4-4298-b3e8-c284a6c7b3de.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/e94d96e8-a2b4-4298-b3e8-c284a6c7b3de.jpg",
+          "stockLabel": "High Demand - Estimated leadtime 4–5 weeks"
         },
         {
           "name": "Prusa CORE One+ kit",
@@ -3389,7 +3393,7 @@
         {
           "name": "Prusa CORE One+ assembled",
           "price": "CZK 38,990",
-          "stock": "low",
+          "stock": "ok",
           "url": "https://www.prusa3d.com/product/prusa-core-one/",
           "image": "https://www.prusa3d.com/content/images/product/f41749a9-a40d-4854-8b2b-7c39c5f4e02f.jpg"
         },
@@ -3410,9 +3414,10 @@
         {
           "name": "Prusament PLA Galaxy Black 1kg",
           "price": "CZK 790",
-          "stock": "ok",
+          "stock": "none",
           "url": "https://www.prusa3d.com/product/prusament-pla-prusa-galaxy-black-1kg/",
-          "image": "https://www.prusa3d.com/content/images/product/c05d2e52-b362-4c8e-847a-6615aec730b3.jpg"
+          "image": "https://www.prusa3d.com/content/images/product/c05d2e52-b362-4c8e-847a-6615aec730b3.jpg",
+          "stockLabel": "Out of stock"
         },
         {
           "name": "Prusament PETG Anthracite 1kg",
@@ -3424,7 +3429,7 @@
         {
           "name": "Nextruder for CORE One",
           "price": "CZK 3,990",
-          "stock": "low",
+          "stock": "ok",
           "url": "https://www.prusa3d.com/product/nextruder-heaterblock/",
           "image": "https://www.prusa3d.com/content/images/product/b01fd2be-1499-4ffd-96f3-f1528cd0e1ff.jpg"
         }
