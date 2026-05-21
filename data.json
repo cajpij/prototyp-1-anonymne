@@ -271,6 +271,287 @@
     }
   },
   "queries": {
+    "pla": {
+      "totalResults": 628,
+      "tabs": {
+        "all": 628,
+        "products": 625,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Prusament PLA Pristine White 900g Refill (NFC Compatible)",
+        "description": "Eco-friendly refill spool for Prusament PLA — keeps your existing spool body, swaps the filament in seconds. ±0.02mm precision, fully rewritable NFC tag.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 574.99",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-900g-refill-nfc-compatible/"
+      },
+      "goods": [
+        {
+          "name": "Prusament PLA Pristine White 900g Refill (NFC Compatible)",
+          "price": "CZK 574.99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-900g-refill-nfc-compatible/",
+          "image": "https://www.prusa3d.com/content/images/product/7042ac12-0a76-4d80-90a3-1856c4ecb830.jpg"
+        },
+        {
+          "name": "Prusament PLA Jet Black 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-jet-black-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/ea9af96d-4307-41e5-b125-929a849f8714.jpg"
+        },
+        {
+          "name": "Prusament PLA Pristine White 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/b46f0f1d-7c4c-46bd-9896-a3790d9037c8.jpg"
+        },
+        {
+          "name": "Prusament PLA Prusa Orange 1kg (Clearance)",
+          "price": "CZK 569",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-pla-prusa-orange-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/77dd4e70-4c62-4ac1-9da0-dc0124fbe048.jpg"
+        },
+        {
+          "name": "Prusament PLA Lipstick Red 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-lipstick-red-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/d5c3ec99-85ad-4acf-bd91-b2907de45b8c.jpg"
+        },
+        {
+          "name": "Prusament PLA Blend Pearl White 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-blend-pearl-white-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/49abe6df-4d05-4761-b2c5-a42acb72462d.png"
+        },
+        {
+          "name": "Prusament PLA Galaxy Purple 2kg (Clearance)",
+          "price": "CZK 899",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-pla-galaxy-purple-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/0cdd5a93-f9c7-4d4f-8a34-a60c80a83509.jpg"
+        },
+        {
+          "name": "Prusament PLA Gentleman's Grey 1kg (Clearance)",
+          "price": "CZK 569",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-pla-gentleman-s-grey-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/d9fa8efa-d090-4be3-a277-1f20af11253c.jpg"
+        },
+        {
+          "name": "Prusament PLA Blend Royal Blue 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-royal-blue-blend-970g/",
+          "image": "https://www.prusa3d.com/content/images/product/6a0e0a8d-e66b-4ea3-aedd-d47057dc78c4.jpg"
+        },
+        {
+          "name": "Prusament PLA Gravity Grey 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-gravity-grey-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/45c5d701-c7ef-424a-be68-ea13ced1bedf.jpg"
+        },
+        {
+          "name": "Prusament PLA Pristine White 2kg (NFC)",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-2kg-2/",
+          "image": "https://www.prusa3d.com/content/images/product/fcc7d057-11f6-4ae6-9e88-d35a785bd514.jpg"
+        },
+        {
+          "name": "Prusament PLA Jet Black 2kg (NFC)",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-jet-black-2kg/",
+          "image": "https://www.prusa3d.com/content/images/product/01bcbc20-8c4e-485e-9188-9419f1d1f6d8.jpg"
+        },
+        {
+          "name": "Prusament PLA Vanilla White 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-vanilla-white-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/d847ed4d-577a-4483-a722-54be1452517b.jpg"
+        },
+        {
+          "name": "Prusament PLA Anthracite Grey 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-anthracite-grey-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/f7bdb635-62fb-45d0-b5a3-2c4fbea1546a.jpg"
+        },
+        {
+          "name": "Prusament PLA Prusa Orange 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-prusa-orange-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/77dd4e70-4c62-4ac1-9da0-dc0124fbe048.jpg"
+        },
+        {
+          "name": "Prusament PLA Army Green 1kg (Clearance)",
+          "price": "CZK 569",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-pla-army-green-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/9638b356-5479-45e1-953a-554d7de36252.jpg"
+        },
+        {
+          "name": "Prusament PLA Noctua Beige 1kg (Clearance)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-pla-noctua-beige-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/bc0d448a-92f0-4113-8c8b-a89ab1b65666.jpg"
+        },
+        {
+          "name": "Prusament PLA Prusa Orange 2kg (NFC)",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-pla-prusa-orange-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/77dd4e70-4c62-4ac1-9da0-dc0124fbe048.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "PLA filament — properties and print settings",
+          "description": "PLA is the easiest filament to print: low warping, no fumes, reliable first layer. Recommended nozzle 185–235 °C and bed 50–60 °C. Best for prototypes and decorative parts.",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/pla_2062",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/prusament-pla-vanilla-white-1kg.jpg"
+        },
+        {
+          "title": "Prusament PLA — Material Guide",
+          "description": "Full material guide for Prusament PLA: temperatures, retraction, cooling, supports, post-processing. Includes recommended PrusaSlicer profiles for all printer families.",
+          "badges": [
+            {
+              "text": "Material guide",
+              "variant": "info"
+            },
+            {
+              "text": "Prusament"
+            }
+          ],
+          "url": "https://help.prusa3d.com/filament-material-guide"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Introducing Prusament PLA Recycled!",
+          "description": "100% recycled Prusament PLA — made from production waste, unique color per batch, 2kg spool. Slightly looser tolerance (±0.05mm) but solid printing performance.",
+          "badges": [
+            {
+              "text": "Sustainability",
+              "variant": "success"
+            },
+            {
+              "text": "Prusament"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/introducing-prusament-pla-recycled_59116/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2021/12/blog_nahledovka-copy-scaled.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "PLA",
+            "url": "https://www.prusa3d.com/category/pla/"
+          },
+          {
+            "title": "Prusament PLA",
+            "url": "https://www.prusa3d.com/category/prusament-pla/"
+          },
+          {
+            "title": "Prusament PLA Bundles",
+            "url": "https://www.prusa3d.com/category/prusament/"
+          },
+          {
+            "title": "MMU2/S Plastic Parts"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "pla"
+          },
+          {
+            "label": "prusament pla"
+          },
+          {
+            "label": "pla+"
+          },
+          {
+            "label": "buddy3d pla"
+          },
+          {
+            "label": "pla white"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "PLA Material Guide",
+            "url": "https://help.prusa3d.com/article/pla_2062"
+          },
+          {
+            "title": "Prusament filament catalog",
+            "url": "https://www.prusa3d.com/category/prusament/"
+          },
+          {
+            "title": "PLA print settings (PrusaSlicer)",
+            "url": "https://help.prusa3d.com/filament-material-guide"
+          },
+          {
+            "title": "Filament storage guide",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Filament settings",
+            "url": "https://help.prusa3d.com/category/filament-settings_916"
+          },
+          {
+            "title": "Material handling",
+            "url": "https://help.prusa3d.com/en/materials"
+          },
+          {
+            "title": "Print quality troubleshooting",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          },
+          {
+            "title": "Filament storage",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "PrusaSlicer profiles",
+            "url": "https://help.prusa3d.com/category/configuration-and-profiles_207"
+          }
+        ]
+      }
+    },
     "mmu3": {
       "totalResults": 135,
       "tabs": {
