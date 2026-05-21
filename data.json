@@ -271,6 +271,285 @@
     }
   },
   "queries": {
+    "petg": {
+      "totalResults": 476,
+      "tabs": {
+        "all": 476,
+        "products": 473,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Prusament PETG Anthracite Grey 900g Refill (NFC Compatible)",
+        "description": "Eco-friendly refill spool for Prusament PETG — keeps your existing spool body, swaps the filament in seconds. ±0.02mm precision, made in-house at Prusa Research.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 574.99",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-900g-refill-nfc-compatible/"
+      },
+      "goods": [
+        {
+          "name": "Prusament PETG Anthracite Grey 900g Refill (NFC Compatible)",
+          "price": "CZK 574.99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-900g-refill-nfc-compatible/",
+          "image": "https://www.prusa3d.com/content/images/product/fbb18a86-abc5-407e-b2f7-d9818ad8119e.jpg"
+        },
+        {
+          "name": "Prusament PETG Urban Grey 900g Refill (NFC Compatible)",
+          "price": "CZK 574.99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-urban-grey-1kg-refill/",
+          "image": "https://www.prusa3d.com/content/images/product/284f018e-d653-4afc-b0e6-28613fd3f65b.jpg"
+        },
+        {
+          "name": "Prusament PETG Clear 900g Refill (NFC Compatible)",
+          "price": "CZK 574.99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-clear-900g-refill-nfc-compatible/",
+          "image": "https://www.prusa3d.com/content/images/product/61e65595-f5f6-467a-951a-882210fc0adb.jpg"
+        },
+        {
+          "name": "Prusament PETG Signal White 900g Refill (NFC Compatible)",
+          "price": "CZK 574.99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-signal-white-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/c0909166-4b5b-4143-9277-68012e999237.jpg"
+        },
+        {
+          "name": "Prusament PETG Jet Black 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-jet-black-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/aefddc22-00ff-4a4f-a79d-2099c3f755e0.jpg"
+        },
+        {
+          "name": "Prusament PETG Prusa Orange 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-prusa-orange-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/f1d3e13c-602a-4236-b04e-580e37b4ba09.jpg"
+        },
+        {
+          "name": "Prusament PETG Urban Grey 1kg (Clearance)",
+          "price": "CZK 569",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-petg-urban-grey-1kg-clearance/",
+          "image": "https://www.prusa3d.com/content/images/product/5d2120d7-e2c9-4538-b44f-20a2aa29fba0.jpg"
+        },
+        {
+          "name": "Prusament PETG Signal White 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-signal-white-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/c0909166-4b5b-4143-9277-68012e999237.jpg"
+        },
+        {
+          "name": "Prusament PETG Orange for PPE 1kg (Clearance)",
+          "price": "CZK 524.25",
+          "stock": "ok",
+          "badge": "%",
+          "url": "https://www.prusa3d.com/product/prusament-petg-orange-for-ppe-1kg-2/",
+          "image": "https://www.prusa3d.com/content/images/product/53e9f1be-9d91-480e-9e7e-45a7205f58b3.jpg"
+        },
+        {
+          "name": "Prusament PETG Prusa Galaxy Black 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-prusa-galaxy-black-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/53ff0342-bff9-4d03-986c-5657040dd88c.jpg"
+        },
+        {
+          "name": "Prusament PETG Jet Black 2kg (NFC)",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-jet-black-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/aefddc22-00ff-4a4f-a79d-2099c3f755e0.jpg"
+        },
+        {
+          "name": "Prusament PETG Clear 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-clear-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/bf599cd9-a994-41e1-aba3-2d604951bdaf.jpg"
+        },
+        {
+          "name": "Prusament PETG Ultraglow Green 800g (NFC)",
+          "price": "CZK 899",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-ultraglow-green-800g-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/c23f80e1-a2d4-441f-9256-4409b3e05ad9.jpg"
+        },
+        {
+          "name": "Prusament PETG Carbon Fiber Black 1kg (NFC)",
+          "price": "CZK 999",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-carbon-fiber-black-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/8182591e-aeb7-41cf-bee7-156de4c31b5f.jpg"
+        },
+        {
+          "name": "Prusament PETG Ultraglow Green 25g sample",
+          "price": "CZK 89",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-ultraglow-green-25g-sample/",
+          "image": "https://www.prusa3d.com/content/images/product/7c161e1c-b2f4-4804-a8e5-d25533fbef2f.jpg"
+        },
+        {
+          "name": "Prusament PETG Sky Blue 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-sky-blue-1kg-nfc/",
+          "image": "https://www.prusa3d.com/content/images/product/3dc62763-29f1-4a00-820f-ca0b6f4e9b4b.png"
+        },
+        {
+          "name": "Prusament PETG Anthracite Grey 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/e654692e-4bca-40e2-a8c8-e2dbfbdf823e.jpg"
+        },
+        {
+          "name": "Prusament PETG Mango Yellow 1kg (NFC)",
+          "price": "CZK 749",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusament-petg-mango-yellow-1kg/",
+          "image": "https://www.prusa3d.com/content/images/product/caa4dbd8-99f7-4532-9fd5-61c02c0c1ecd.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "PETG filament — properties and print settings",
+          "description": "PETG is easy to print and inexpensive — universal for mechanical indoor/outdoor parts. Requires heated bed (~85°C), nozzle 220–250°C. Prone to stringing; tune retraction.",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/petg_2059",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/prusament-petg-prusa-orange-1kg-3.jpg"
+        },
+        {
+          "title": "PETG V0 filament — UL-certified self-extinguishing",
+          "description": "The world's first UL-certified self-extinguishing PETG. UL94 V0 class — perfect for electronics housings and insulating parts. Bed 90°C, nozzle 230°C.",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "PETG V0"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/petg-v0_1050343",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2026/03/6e9574c29773b63a38cce6bbbc27b72d.jpg"
+        }
+      ],
+      "blog": [
+        {
+          "title": "The new Prusament gets UL Certified! We're launching a self-extinguishing PETG filament",
+          "description": "Launch post for Prusament PETG V0 — the first UL-certified self-extinguishing PETG. Carbonized crust mechanism, testing methodology (IEC 60695-11-10), and use cases for electronics.",
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "Prusament"
+            },
+            {
+              "text": "PETG V0"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/the-new-prusament-gets-ul-certified-were-launching-a-new-self-extinguishing-petg_80711/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2023/08/blog_thumbnail_memory-1-copy.png"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "PETG",
+            "url": "https://www.prusa3d.com/category/petg/"
+          },
+          {
+            "title": "Prusament PETG",
+            "url": "https://www.prusa3d.com/category/prusament-petg/"
+          },
+          {
+            "title": "Prusament PETG Bundles",
+            "url": "https://www.prusa3d.com/category/prusament/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "petg"
+          },
+          {
+            "label": "prusament petg"
+          },
+          {
+            "label": "petg orange"
+          },
+          {
+            "label": "petg cf"
+          },
+          {
+            "label": "petg v0"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "PETG — Material Guide",
+            "url": "https://help.prusa3d.com/article/petg_2059"
+          },
+          {
+            "title": "PETG V0 — UL-certified guide",
+            "url": "https://help.prusa3d.com/article/petg-v0_1050343"
+          },
+          {
+            "title": "Prusament PETG category",
+            "url": "https://www.prusa3d.com/category/prusament-petg/"
+          },
+          {
+            "title": "Filament storage guide",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          }
+        ],
+        "topics": [
+          {
+            "title": "PETG print settings",
+            "url": "https://help.prusa3d.com/article/petg_2059"
+          },
+          {
+            "title": "Filament settings",
+            "url": "https://help.prusa3d.com/category/filament-settings_916"
+          },
+          {
+            "title": "Material handling",
+            "url": "https://help.prusa3d.com/en/materials"
+          },
+          {
+            "title": "Filament storage",
+            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+          },
+          {
+            "title": "Print bed adhesion",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          }
+        ]
+      }
+    },
     "tpu": {
       "totalResults": 19,
       "tabs": {
