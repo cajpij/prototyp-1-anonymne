@@ -11,15 +11,19 @@
     none: { label: 'Sold out',   cls: 'stock-none' },
   };
 
-  // Resolve a Prusa e-shop URL for an item — explicit `url` wins,
-  // otherwise fall back to a search query against prusa3d.com so testers
-  // always land on real, relevant content.
+  // Resolve a real URL for an item.
+  // Order: explicit `item.url` → Google site-search filtered to the right
+  // Prusa subdomain. We don't use direct Prusa search endpoints because
+  // help.prusa3d.com has no public search page (returns 404) and the main
+  // site's ?s= search doesn't always surface the right content. Google with
+  // `site:` always returns real, indexed Prusa pages.
   function prusaUrl(item, kind) {
     if (item && item.url) return item.url;
-    const q = encodeURIComponent((item && (item.name || item.title || item.label)) || '');
-    if (kind === 'article') return `https://help.prusa3d.com/search?query=${q}`;
-    if (kind === 'blog')    return `https://blog.prusa3d.com/?s=${q}`;
-    return `https://www.prusa3d.com/?s=${q}`;
+    const q = (item && (item.name || item.title || item.label)) || '';
+    const site = kind === 'article' ? 'help.prusa3d.com'
+               : kind === 'blog'    ? 'blog.prusa3d.com'
+               :                       'www.prusa3d.com';
+    return `https://www.google.com/search?q=${encodeURIComponent(q + ' site:' + site)}`;
   }
   function escAttr(s) {
     return String(s == null ? '' : s).replace(/"/g, '&quot;');
