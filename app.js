@@ -415,12 +415,8 @@
       if (item) applyToPage(acInput.value);
     });
 
-    // Tell us
-    $('#acTell').addEventListener('click', (e) => {
-      e.preventDefault();
-      closeAutocomplete();
-      showToast('Tell us — feedback flow stub');
-    });
+    // Tell us — close autocomplete; link opens Tally form in a new tab via href.
+    $('#acTell').addEventListener('click', () => closeAutocomplete());
 
     // Keyboard nav (active when overlay is open)
     document.addEventListener('keydown', (e) => {
