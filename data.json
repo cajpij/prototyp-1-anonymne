@@ -271,6 +271,218 @@
     }
   },
   "queries": {
+    "firmware": {
+      "totalResults": 13,
+      "tabs": {
+        "all": 13,
+        "products": 10,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Original Prusa XL - assembled Critical Infrastructure Edition",
+        "description": "Hardened Original Prusa XL pre-configured for critical infrastructure: bootloader lock, signed firmware, restricted-write filesystem and optional encrypted 30GB USB. Ready for OT/SCADA environments.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "High Demand · Leadtime 3–4 weeks",
+            "variant": "warn"
+          }
+        ],
+        "price": "—",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/original-prusa-xl-2-tool-head-assembled-critical-infrastructure-edition/"
+      },
+      "goods": [
+        {
+          "name": "Original Prusa XL - assembled Critical Infrastructure Edition",
+          "price": "—",
+          "stock": "low",
+          "stockLabel": "High Demand · Leadtime 3–4 weeks",
+          "url": "https://www.prusa3d.com/product/original-prusa-xl-2-tool-head-assembled-critical-infrastructure-edition/",
+          "image": "https://www.prusa3d.com/content/images/product/87909198-d8ea-4097-9b7a-8b37ac67037b.jpg"
+        },
+        {
+          "name": "Buddy3D Camera",
+          "price": "CZK 1,099",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/buddy3d-camera/",
+          "image": "https://www.prusa3d.com/content/images/product/46cd45c2-b0e7-4a73-a560-c60d3a2d1936.jpg"
+        },
+        {
+          "name": "Wi-Fi adapter ESP-01S for MINI+ and MK4",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/wi-fi-adapter-esp-01s-for-mini-and-mk4/",
+          "image": "https://www.prusa3d.com/content/images/product/5200.jpg"
+        },
+        {
+          "name": "xLCD board",
+          "price": "CZK 2,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/xlcd-board/",
+          "image": "https://www.prusa3d.com/content/images/product/4ce44e90-9d9f-4193-b65b-ef2a753a9e9e.jpg"
+        },
+        {
+          "name": "SuperPINDA",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/superpinda/",
+          "image": "https://www.prusa3d.com/content/images/product/285.jpg"
+        },
+        {
+          "name": "Einsy RAMBo (MK3/S/+)",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/einsy-rambo-mk3s/",
+          "image": "https://www.prusa3d.com/content/images/product/507.jpg"
+        },
+        {
+          "name": "LCD unit",
+          "price": "CZK 1,490",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/lcd-unit/",
+          "image": "https://www.prusa3d.com/content/images/product/4627.jpg"
+        },
+        {
+          "name": "Control board MMU2S",
+          "price": "CZK 1,399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/control-board-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/1007.jpg"
+        },
+        {
+          "name": "RAMBo mini",
+          "price": "CZK 3,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/rambo-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/372.jpg"
+        },
+        {
+          "name": "Original Prusa MMU3 (for MK4S/MK3.9S) - Full kit",
+          "price": "CZK 8,590",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk4s-mk3-9s-7/",
+          "image": "https://www.prusa3d.com/content/images/product/b39ede19-58bf-4c39-a00d-8041b2d6da5c.png"
+        }
+      ],
+      "articles": [
+        {
+          "title": "Firmware — printer operating system",
+          "description": "What firmware is and how it relates to the bootloader. Where to download for each printer family, how versioning works, and what new firmware brings to existing hardware.",
+          "badges": [
+            {
+              "text": "Glossary",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/glossary/firmware_139027",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/firmware-4.jpg"
+        },
+        {
+          "title": "Firmware updating (MINI/MINI+)",
+          "description": "Detailed firmware update procedure for MINI/MINI+. Covers USB flash drive prep, bootloader specifics, language packs, and known issues for older bootloader versions.",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            },
+            {
+              "text": "MINI / MINI+"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/firmware-updating-mini-mini_124784",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/MINIflash.jpg"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Prusa Autumn News Summary 2023: New major firmware release with final Input Shaper, PrusaSlicer 2.7.0, MK3.5 update and more!",
+          "description": "Firmware feature roundup — final Input Shaper rollout, PrusaSlicer 2.7.0, MK3.5 update, and Connect improvements.",
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "Firmware"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/prusa-autumn-news-summary-2023-new-firmware-prusaslicer-mk3-5-info-and-more_86935/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2023/11/17dee9dc-prusa_summary.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Spare Boards & Electronics",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          },
+          {
+            "title": "PrusaConnect & Cameras",
+            "url": "https://help.prusa3d.com/product/prusa-connect/prusa-connect-prusalink_1636"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "firmware"
+          },
+          {
+            "label": "firmware update"
+          },
+          {
+            "label": "mk4s firmware"
+          },
+          {
+            "label": "mmu3 firmware"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "Firmware & Downloads",
+            "url": "https://help.prusa3d.com/downloads"
+          },
+          {
+            "title": "How to update firmware (CORE One, MK4)",
+            "url": "https://help.prusa3d.com/article/how-to-update-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s-xl_453086"
+          },
+          {
+            "title": "How to update firmware (MMU3)",
+            "url": "https://help.prusa3d.com/article/how-to-update-firmware-mmu3_701584"
+          },
+          {
+            "title": "Firmware glossary",
+            "url": "https://help.prusa3d.com/glossary/firmware_139027"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Firmware updates",
+            "url": "https://help.prusa3d.com/downloads"
+          },
+          {
+            "title": "Prusa Connect / PrusaLink",
+            "url": "https://help.prusa3d.com/product/prusa-connect/prusa-connect-prusalink_1636"
+          },
+          {
+            "title": "Flashing custom firmware",
+            "url": "https://help.prusa3d.com/article/flashing-custom-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s_814967"
+          },
+          {
+            "title": "Bootloader",
+            "url": "https://help.prusa3d.com/glossary/firmware_139027"
+          },
+          {
+            "title": "Printer maintenance",
+            "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
+          }
+        ]
+      }
+    },
     "ptfe": {
       "totalResults": 39,
       "tabs": {
