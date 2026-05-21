@@ -271,6 +271,270 @@
     }
   },
   "queries": {
+    "ptfe": {
+      "totalResults": 39,
+      "tabs": {
+        "all": 39,
+        "products": 36,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Hotend PTFE tube (MK2.5S, MK3S, MMU2S)",
+        "description": "Replacement PTFE tube for the hotend on MK2.5S/MK3S/MMU2S. Polytetrafluoroethylene with low friction coefficient — guides filament cleanly from the heatbreak to the nozzle.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 25",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/"
+      },
+      "goods": [
+        {
+          "name": "Hotend PTFE tube (MK2.5S, MK3S, MMU2S)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/510.jpg"
+        },
+        {
+          "name": "PTFE 4x2.5x360",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-4x2-5x360/",
+          "image": "https://www.prusa3d.com/content/images/product/183ec2b0-f7c1-4f33-bb80-1236fb770502.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MK3S+, MMU2S)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk3s-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/521.jpg"
+        },
+        {
+          "name": "PTFE Tube 4x2,5x1275 mm",
+          "price": "CZK 199",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-tube-4x2-5x1275-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/800e5aa1-9e23-405a-85fc-d0756bd07605.jpg"
+        },
+        {
+          "name": "Extruder-Print head PTFE tube (MINI/+)",
+          "price": "CZK 59",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/extruder-print-head-ptfe-tube-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1752.jpg"
+        },
+        {
+          "name": "Enclosure PTFE tube",
+          "price": "CZK 79",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/enclosure-ptfe-tube/",
+          "image": "https://www.prusa3d.com/content/images/product/5300.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MK2/S, MK2.5, MK3, MMU2)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk2-s-mk2-5-mk3-mmu2/",
+          "image": "https://www.prusa3d.com/content/images/product/500.jpg"
+        },
+        {
+          "name": "PTFE Fitting",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-fitting/",
+          "image": "https://www.prusa3d.com/content/images/product/9a089acc-4b6b-4871-8c24-32ad4ab13f85.jpg"
+        },
+        {
+          "name": "MMU2S-Extruder PTFE tube (MMU2S)",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu2s-extruder-ptfe-tube-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/4430.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MINI/+)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1754.jpg"
+        },
+        {
+          "name": "PTFE Fitting MINI/+",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-fitting-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1769.jpg"
+        },
+        {
+          "name": "PTFE Clip",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-clip/",
+          "image": "https://www.prusa3d.com/content/images/product/fc8a4b59-e5a5-4f75-8bbc-b43c45e49e51.jpg"
+        },
+        {
+          "name": "Filament sensor PTFE 4x2x15 (MINI/+)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/filament-sensor-ptfe-4x2x15-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1773.jpg"
+        },
+        {
+          "name": "MMU3 PTFE Holder",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/mmu3-ptfe-holder/",
+          "image": "https://www.prusa3d.com/content/images/product/5470edd2-8678-45bc-b656-d72fe8290919.jpg"
+        },
+        {
+          "name": "PTFE CLIP",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/ptfe-clip/",
+          "image": "https://www.prusa3d.com/content/images/product/fc8a4b59-e5a5-4f75-8bbc-b43c45e49e51.jpg"
+        },
+        {
+          "name": "FRONT PTFE HOLDER",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/front-ptfe-holder/",
+          "image": "https://www.prusa3d.com/content/images/product/a21a7fd2-626c-4564-9ae8-3eb08bc7d202.jpg"
+        },
+        {
+          "name": "Rear PTFE holder black MMU2",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/rear-ptfe-holder-black-mmu2/",
+          "image": "https://www.prusa3d.com/content/images/product/1049.jpg"
+        },
+        {
+          "name": "Front PTFE holder black MMU2",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/front-ptfe-holder-black-mmu2/",
+          "image": "https://www.prusa3d.com/content/images/product/1041.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "PTFE tubes in Original Prusa i3 printers",
+          "description": "Why PTFE — low friction guides filament cleanly. Different tubes used in single- vs. multi-material printers, when to replace, where to source spare tubes (Festo or e-shop).",
+          "badges": [
+            {
+              "text": "Knowledge base",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/ptfe-tubes-in-original-prusa-i3-printers_2065",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/PTFE.jpg"
+        },
+        {
+          "title": "How to trim PTFE tube - Original Prusa printers",
+          "description": "Step-by-step guide to cut your own PTFE tube to the right length. Covers tools, square-cut technique, and how to chamfer the ends to avoid filament hang-ups.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-i3-printers_22424"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Prusa Printer Enclosure V2 - with MMU2S support",
+          "description": "Updated Prusa enclosure accommodating MK3S + MMU2S unit with PTFE tube routing for clean multi-material printing. Stable temperatures, better adhesion for ABS / ASA.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            },
+            {
+              "text": "Enclosure"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/mmu2s-printer-enclosure_30215/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2019/06/enclosure-1.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "PTFE Tubes",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          },
+          {
+            "title": "MMU Spare Parts",
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+          },
+          {
+            "title": "Hotend Spare Parts",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "ptfe"
+          },
+          {
+            "label": "ptfe tube"
+          },
+          {
+            "label": "hotend ptfe tube"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "PTFE tubes — overview",
+            "url": "https://help.prusa3d.com/article/ptfe-tubes-in-original-prusa-i3-printers_2065"
+          },
+          {
+            "title": "How to replace a hotend PTFE tube",
+            "url": "https://help.prusa3d.com/guide/how-to-replace-a-hotend-ptfe-tube-mk3s-mk3s-mk2-5s-mmu2s_21664"
+          },
+          {
+            "title": "How to trim PTFE tube",
+            "url": "https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-i3-printers_22424"
+          },
+          {
+            "title": "Print head PTFE tube replacement (MINI)",
+            "url": "https://help.prusa3d.com/guide/how-to-replace-a-print-head-ptfe-tube-mini-mini_142572"
+          }
+        ],
+        "topics": [
+          {
+            "title": "PTFE tube replacement",
+            "url": "https://help.prusa3d.com/guide/how-to-replace-a-hotend-ptfe-tube-mk3s-mk3s-mk2-5s-mmu2s_21664"
+          },
+          {
+            "title": "Clogged nozzle",
+            "url": "https://help.prusa3d.com/article/clogged-nozzle-core-one-core-one-l-xl-mk4-s-mk3-9-s_411823"
+          },
+          {
+            "title": "Hotend disassembly",
+            "url": "https://help.prusa3d.com/article/hotend-disassembly-heatbreak-stuck-in-the-heatsink_112677"
+          },
+          {
+            "title": "MMU3 maintenance",
+            "url": "https://help.prusa3d.com/article/mmu3-regular-maintenance_682693"
+          },
+          {
+            "title": "Printer maintenance",
+            "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
+          }
+        ]
+      }
+    },
     "nextruder": {
       "totalResults": 158,
       "tabs": {
