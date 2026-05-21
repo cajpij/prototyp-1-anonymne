@@ -294,7 +294,7 @@
           }
         ],
         "price": "CZK 649",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/5419.jpg",
         "url": "https://www.prusa3d.com/product/hepa-filter/"
       },
       "goods": [
@@ -541,7 +541,7 @@
           }
         ],
         "price": "CZK 574.99",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/fbb18a86-abc5-407e-b2f7-d9818ad8119e.jpg",
         "url": "https://www.prusa3d.com/product/prusament-petg-anthracite-grey-900g-refill-nfc-compatible/"
       },
       "goods": [
@@ -820,7 +820,7 @@
           }
         ],
         "price": "CZK 899",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/4e3e862e-758a-4d27-82df-acff43d1ab01.png",
         "url": "https://www.prusa3d.com/product/prusament-tpu-95a-jet-black-500g-nfc/"
       },
       "goods": [
@@ -1080,7 +1080,7 @@
           }
         ],
         "price": "—",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/87909198-d8ea-4097-9b7a-8b37ac67037b.jpg",
         "url": "https://www.prusa3d.com/product/original-prusa-xl-2-tool-head-assembled-critical-infrastructure-edition/"
       },
       "goods": [
@@ -1292,7 +1292,7 @@
           }
         ],
         "price": "CZK 25",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/510.jpg",
         "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/"
       },
       "goods": [
@@ -1556,7 +1556,7 @@
           }
         ],
         "price": "CZK 8,499",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/3c8f934a-b71e-41a0-b88b-c34b18d02a4b.jpg",
         "url": "https://www.prusa3d.com/product/xl-multi-tool-nextruder-3/"
       },
       "goods": [
@@ -1838,7 +1838,7 @@
           }
         ],
         "price": "CZK 1,299",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/c3e684ba-4cb8-477b-98c0-7a1746991977.jpg",
         "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-40-mm/"
       },
       "goods": [
@@ -2110,7 +2110,7 @@
           }
         ],
         "price": "CZK 699",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/e211bf7e-c7f1-464a-8a32-35b6e49e92ac.jpg",
         "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht-0-4-mm/"
       },
       "goods": [
@@ -2385,7 +2385,7 @@
           }
         ],
         "price": "CZK 574.99",
-        "image": null,
+        "image": "https://www.prusa3d.com/content/images/product/7042ac12-0a76-4d80-90a3-1856c4ecb830.jpg",
         "url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-900g-refill-nfc-compatible/"
       },
       "goods": [
