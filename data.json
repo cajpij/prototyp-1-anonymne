@@ -271,6 +271,281 @@
     }
   },
   "queries": {
+    "nozzle": {
+      "totalResults": 443,
+      "tabs": {
+        "all": 443,
+        "products": 440,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Prusa Nozzle brass CHT - 0.4 mm",
+        "description": "All-metal high-precision high-flow nozzle with CHT (Core Heating Technology) for the Nextruder. Combines nozzle and heatbreak in one piece, dramatically improves flow and print speed.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 699",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht-0-4-mm/"
+      },
+      "goods": [
+        {
+          "name": "Prusa Nozzle brass CHT - 0.4 mm",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht-0-4-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/e211bf7e-c7f1-464a-8a32-35b6e49e92ac.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass - 0.25 mm",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-0-25-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/5775.jpg"
+        },
+        {
+          "name": "Prusa Nozzle ObXidian - 0.4 mm",
+          "price": "CZK 1,399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-obxidian-4/",
+          "image": "https://www.prusa3d.com/content/images/product/cd9aa9e8-4f72-44c1-b3c0-636108475b54.jpg"
+        },
+        {
+          "name": "Nextruder V6 Nozzle Adapter",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-v6-nozzle-adapter/",
+          "image": "https://www.prusa3d.com/content/images/product/5727.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass - 0.4 mm",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-0-4-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/5777.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass CHT - 0.6 mm",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht/",
+          "image": "https://www.prusa3d.com/content/images/product/ed66edcb-16a8-4137-870f-88cbec497e1e.jpg"
+        },
+        {
+          "name": "Prusa Nextruder Silicone sock - set",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nextruder-silicone-sock-set/",
+          "image": "https://www.prusa3d.com/content/images/product/3b23de80-ce4f-4356-9770-885393283707.jpg"
+        },
+        {
+          "name": "Nozzle Cleaning Needle 5pcs",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nozzle-cleaning-needle-5pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/e3d1aff8-f714-4eaf-97f5-569212042ac7.jpg"
+        },
+        {
+          "name": "Nozzle V6 0.4 mm",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nozzle-e3d-v6-0-4-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3284.jpg"
+        },
+        {
+          "name": "Prusa Brass Nozzle Brush",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-brass-nozzle-brush/",
+          "image": "https://www.prusa3d.com/content/images/product/eb900eb4-e4a7-40a7-b9aa-b66a6d6c1645.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass - 0.6 mm",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass/",
+          "image": "https://www.prusa3d.com/content/images/product/5778.jpg"
+        },
+        {
+          "name": "E3D Prusa Nozzle: High Flow ObXidian™ - 0.4 mm",
+          "price": "CZK 1,790",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-obxidian-4/",
+          "image": "https://www.prusa3d.com/content/images/product/cd9aa9e8-4f72-44c1-b3c0-636108475b54.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass - 0.8 mm",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-0-8-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/5779.jpg"
+        },
+        {
+          "name": "Prusa Nozzle ObXidian - 0.6 mm",
+          "price": "CZK 1,399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-obxidian-0-6-mm-2/",
+          "image": "https://www.prusa3d.com/content/images/product/b99e8bfa-373b-4a07-9ae0-a30493807dcd.jpg"
+        },
+        {
+          "name": "Prusa Nozzle V6 set",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-v6-set/",
+          "image": "https://www.prusa3d.com/content/images/product/9bc48b8c-df52-4f06-a28e-5c162106c455.jpg"
+        },
+        {
+          "name": "Standard Nozzle Kit",
+          "price": "CZK 2,399",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/standard-nozzle-kit/",
+          "image": "https://www.prusa3d.com/content/images/product/59eb9f45-e33c-4697-8771-b06ac86f0189.jpg"
+        },
+        {
+          "name": "Nozzle V6 0.25 mm",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nozzle-e3d-v6-0-25-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3277.png"
+        },
+        {
+          "name": "Nozzle V6 0.6 mm",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nozzle-e3d-v6-0-6-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3280.png"
+        }
+      ],
+      "articles": [
+        {
+          "title": "Nozzle — filament extrusion component",
+          "description": "What a nozzle does, how brass/hardened/CHT differ, and when to swap diameter. Glossary entry covering all Prusa printer families.",
+          "badges": [
+            {
+              "text": "Glossary",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/glossary/nozzle_141989",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/8aa65762760ad502_painted.jpeg"
+        },
+        {
+          "title": "Changing/replacing the nozzle (MINI)",
+          "description": "Step-by-step replacement for the Original Prusa MINI. Requires 16mm spanner + 7mm socket. Includes calibration steps after the swap.",
+          "badges": [
+            {
+              "text": "Manual"
+            },
+            {
+              "text": "MINI",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/article/changing-replacing-the-nozzle-mini_134235",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/changenozzlemini.jpg"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Nozzle diameter — changing and benefits",
+          "description": "Everything about nozzles with a different diameter: 0.25mm for detail, 0.6mm for speed, 0.8mm for strength. Side-by-side comparisons, sample prints, recommended use cases.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/everything-about-nozzles-with-a-different-diameter_8344/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2018/06/featured.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Nextruder Nozzles",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "Nozzles",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "V6 Nozzles",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "HT90 Nozzles",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "nozzle"
+          },
+          {
+            "label": "hardened nozzle"
+          },
+          {
+            "label": "core one nozzle"
+          },
+          {
+            "label": "prusa brass nozzle brush"
+          },
+          {
+            "label": "prusa nozzle"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "Different nozzle types",
+            "url": "https://help.prusa3d.com/article/different-nozzle-types_2193"
+          },
+          {
+            "title": "Clogged nozzle troubleshooting",
+            "url": "https://help.prusa3d.com/article/clogged-nozzle-core-one-core-one-l-xl-mk4-s-mk3-9-s_411823"
+          },
+          {
+            "title": "Creating profiles for different nozzles",
+            "url": "https://help.prusa3d.com/article/creating-profiles-for-different-nozzles_127540"
+          },
+          {
+            "title": "Changing the Prusa Nozzle",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-prusa-nozzle_734706"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Nozzle maintenance",
+            "url": "https://help.prusa3d.com/article/clogged-nozzle-core-one-core-one-l-xl-mk4-s-mk3-9-s_411823"
+          },
+          {
+            "title": "Nozzle replacement",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-prusa-nozzle_734706"
+          },
+          {
+            "title": "Abrasive materials",
+            "url": "https://help.prusa3d.com/article/composite-materials-with-metal-or-wood-particles_166863"
+          },
+          {
+            "title": "PrusaSlicer nozzle profiles",
+            "url": "https://help.prusa3d.com/article/creating-profiles-for-different-nozzles_127540"
+          },
+          {
+            "title": "First-layer issues",
+            "url": "https://help.prusa3d.com/article/first-layer-issues_1804"
+          }
+        ]
+      }
+    },
     "pla": {
       "totalResults": 628,
       "tabs": {
