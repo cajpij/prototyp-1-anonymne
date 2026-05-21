@@ -11,6 +11,20 @@
     none: { label: 'Sold out',   cls: 'stock-none' },
   };
 
+  // Resolve a Prusa e-shop URL for an item — explicit `url` wins,
+  // otherwise fall back to a search query against prusa3d.com so testers
+  // always land on real, relevant content.
+  function prusaUrl(item, kind) {
+    if (item && item.url) return item.url;
+    const q = encodeURIComponent((item && (item.name || item.title || item.label)) || '');
+    if (kind === 'article') return `https://help.prusa3d.com/search?query=${q}`;
+    if (kind === 'blog')    return `https://blog.prusa3d.com/?s=${q}`;
+    return `https://www.prusa3d.com/?s=${q}`;
+  }
+  function escAttr(s) {
+    return String(s == null ? '' : s).replace(/"/g, '&quot;');
+  }
+
   // ===== State =====
   let DATA = null;
   let currentQuery = '';
@@ -108,6 +122,10 @@
     $('#highlightedBadges').innerHTML = (h.badges || [])
       .map(b => `<span class="badge ${b.variant ? 'badge-' + b.variant : ''}">${b.text}</span>`)
       .join('');
+    const viewBtn = $('#highlightedView');
+    if (viewBtn) {
+      viewBtn.href = prusaUrl(h, 'product');
+    }
   }
 
   function renderGoods(d) {
@@ -126,28 +144,31 @@
       const ctaLabel = disabled ? 'Sold out' : 'Add to cart';
       const titleCls = cls(isPlaceholder);
       const priceCls = cls(isPlaceholder);
+      const href = prusaUrl(p, 'product');
       grid.insertAdjacentHTML('beforeend', `
-        <article class="product" data-idx="${i}" tabindex="0">
-          <div class="product-img">
-            <div class="aspect-ratio aspect-ratio--1-1">
-              <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
+        <article class="product" data-idx="${i}">
+          <a class="product-link" href="${escAttr(href)}" target="_blank" rel="noopener" aria-label="${escAttr(p.name)}">
+            <div class="product-img">
+              <div class="aspect-ratio aspect-ratio--1-1">
+                <span class="aspect-ratio__placeholder" aria-hidden="true">?</span>
+              </div>
+              ${p.badge ? `<span class="badge badge-accent product-badge-overlay">${p.badge}</span>` : ''}
+              <span class="product-quick">Quick view</span>
             </div>
-            ${p.badge ? `<span class="badge badge-accent product-badge-overlay">${p.badge}</span>` : ''}
-            <span class="product-quick">Quick view</span>
-          </div>
-          <div class="product-title ${titleCls}">${p.name}</div>
-          <div>
-            <div class="product-price ${priceCls}">${p.price}</div>
-            <div class="product-price-sub">${p.vatNote || 'with VAT'}</div>
-          </div>
-          <div class="product-stock ${stock.cls}"><span class="dot"></span>${stockLabel}</div>
+            <div class="product-title ${titleCls}">${p.name}</div>
+            <div>
+              <div class="product-price ${priceCls}">${p.price}</div>
+              <div class="product-price-sub">${p.vatNote || 'with VAT'}</div>
+            </div>
+            <div class="product-stock ${stock.cls}"><span class="dot"></span>${stockLabel}</div>
+          </a>
           <button class="product-cta" data-add="${i}" ${disabled ? 'disabled' : ''}>${ctaLabel}</button>
         </article>
       `);
     });
   }
 
-  function renderList(targetSel, items, countSel) {
+  function renderList(targetSel, items, countSel, kind) {
     const list = $(targetSel);
     list.innerHTML = '';
     if (countSel) $(countSel).textContent = `${(items || []).length} ${items && items.length === 1 ? 'result' : 'results'}`;
@@ -159,14 +180,15 @@
       const badges = (a.badges || [])
         .map(b => `<span class="badge ${b.variant ? 'badge-' + b.variant : ''}">${b.text}</span>`)
         .join('');
+      const href = escAttr(prusaUrl(a, kind));
       list.insertAdjacentHTML('beforeend', `
-        <li tabindex="0">
-          <div>
+        <li>
+          <a class="article-link" href="${href}" target="_blank" rel="noopener">
             <h4 class="${cls(isPlaceholder)}">${a.title}</h4>
             <p class="${cls(isPlaceholder)}">${a.description || ''}</p>
             <div class="article-badges">${badges}</div>
-          </div>
-          <button class="btn-mini">${a.action || 'Read article →'}</button>
+          </a>
+          <a class="btn-mini" href="${href}" target="_blank" rel="noopener">${a.action || (kind === 'blog' ? 'Read post →' : 'Read article →')}</a>
         </li>
       `);
     });
@@ -179,19 +201,22 @@
     const util  = s.usefulLinks       || [];
     const topi  = s.topics            || [];
 
-    $('#sideCategories').innerHTML = cat.map(c =>
-      `<li><a href="#" data-trend="${c.title}" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`
-    ).join('');
+    $('#sideCategories').innerHTML = cat.map(c => {
+      const href = escAttr(prusaUrl(c, 'product'));
+      return `<li><a href="${href}" target="_blank" rel="noopener" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`;
+    }).join('');
     const trendIcon = '<svg class="search-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>';
     $('#sideTrending').innerHTML = trend.map(t =>
       `<li><a href="#" data-trend="${t.label}">${trendIcon}<span class="${cls(isPlaceholder)}">${t.label}</span></a></li>`
     ).join('');
-    $('#sideUseful').innerHTML = util.map(c =>
-      `<li><a href="#" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`
-    ).join('');
-    $('#sideTopics').innerHTML = topi.map(c =>
-      `<li><a href="#" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`
-    ).join('');
+    $('#sideUseful').innerHTML = util.map(c => {
+      const href = escAttr(prusaUrl(c, 'article'));
+      return `<li><a href="${href}" target="_blank" rel="noopener" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`;
+    }).join('');
+    $('#sideTopics').innerHTML = topi.map(c => {
+      const href = escAttr(prusaUrl(c, 'article'));
+      return `<li><a href="${href}" target="_blank" rel="noopener" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`;
+    }).join('');
   }
 
   function renderTabs(d) {
@@ -216,8 +241,8 @@
     renderTabs(d);
     renderHighlighted(d);
     renderGoods(d);
-    renderList('#articleList', d.articles, '#articlesCount');
-    renderList('#blogList',    d.blog,     '#blogCount');
+    renderList('#articleList', d.articles, '#articlesCount', 'article');
+    renderList('#blogList',    d.blog,     '#blogCount',     'blog');
     renderSidebar(d);
   }
 
@@ -292,13 +317,16 @@
     $('#acGoodsList').innerHTML = goods.map((p, i) => {
       const stockClass = p.stock === 'ok' ? 'stock-ok' : p.stock === 'low' ? 'stock-low' : 'stock-none';
       const stockLabel = p.stockLabel || (p.stock === 'ok' ? 'In stock' : p.stock === 'low' ? 'Low stock' : 'Sold out');
+      const href = escAttr(prusaUrl(p, 'product'));
       return `
-        <li class="ac-item ac-item--product" data-ac-kind="product" data-ac-idx="${i}" role="option" tabindex="-1">
-          <div class="ac-thumb">${productIco}</div>
-          <div class="ac-item-body">
-            <div class="ac-item-title">${p.name}</div>
-            <div class="ac-item-stock ${stockClass}"><span class="dot"></span>${stockLabel}</div>
-          </div>
+        <li class="ac-item ac-item--product" data-ac-kind="product" data-ac-idx="${i}" role="option">
+          <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
+            <div class="ac-thumb">${productIco}</div>
+            <div class="ac-item-body">
+              <div class="ac-item-title">${p.name}</div>
+              <div class="ac-item-stock ${stockClass}"><span class="dot"></span>${stockLabel}</div>
+            </div>
+          </a>
         </li>
       `;
     }).join('');
@@ -307,40 +335,51 @@
     // Articles — top 3
     const articles = (data.articles || []).slice(0, 3);
     $('#acArticlesCount').textContent = `${(counts.articles ?? articles.length).toLocaleString()} results`;
-    $('#acArticlesList').innerHTML = articles.map((a, i) => `
-      <li class="ac-item ac-item--article" data-ac-kind="article" data-ac-idx="${i}" role="option" tabindex="-1">
-        <div class="ac-thumb">${articleIco}</div>
-        <div class="ac-item-body">
-          <div class="ac-item-title">${a.title}</div>
-        </div>
-      </li>
-    `).join('');
+    $('#acArticlesList').innerHTML = articles.map((a, i) => {
+      const href = escAttr(prusaUrl(a, 'article'));
+      return `
+        <li class="ac-item ac-item--article" data-ac-kind="article" data-ac-idx="${i}" role="option">
+          <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
+            <div class="ac-thumb">${articleIco}</div>
+            <div class="ac-item-body">
+              <div class="ac-item-title">${a.title}</div>
+            </div>
+          </a>
+        </li>
+      `;
+    }).join('');
     $('#acArticlesSection').hidden = !articles.length;
 
     // Blog — top 3
     const blog = (data.blog || []).slice(0, 3);
     $('#acBlogCount').textContent = `${(counts.blog ?? blog.length).toLocaleString()} results`;
-    $('#acBlogList').innerHTML = blog.map((b, i) => `
-      <li class="ac-item ac-item--blog" data-ac-kind="blog" data-ac-idx="${i}" role="option" tabindex="-1">
-        <div class="ac-thumb">${blogIco}</div>
-        <div class="ac-item-body">
-          <div class="ac-item-title">${b.title}</div>
-        </div>
-      </li>
-    `).join('');
+    $('#acBlogList').innerHTML = blog.map((b, i) => {
+      const href = escAttr(prusaUrl(b, 'blog'));
+      return `
+        <li class="ac-item ac-item--blog" data-ac-kind="blog" data-ac-idx="${i}" role="option">
+          <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
+            <div class="ac-thumb">${blogIco}</div>
+            <div class="ac-item-body">
+              <div class="ac-item-title">${b.title}</div>
+            </div>
+          </a>
+        </li>
+      `;
+    }).join('');
     $('#acBlogSection').hidden = !blog.length;
 
     // Empty
     $('#acEmpty').hidden = !!(goods.length || articles.length || blog.length);
 
-    // Sidebar: Categories — with chevron
+    // Sidebar: Categories — link out to the Prusa e-shop search/category page.
     const cats = (data.sidebar && data.sidebar.popularCategories) || [];
-    $('#acCategoriesList').innerHTML = cats.slice(0, 6).map(c => `
-      <li><a class="ac-side-link ac-cat" data-trend="${c.title}" href="#">
+    $('#acCategoriesList').innerHTML = cats.slice(0, 6).map(c => {
+      const href = escAttr(prusaUrl(c, 'product'));
+      return `<li><a class="ac-side-link ac-cat" href="${href}" target="_blank" rel="noopener">
         <span>${c.title}</span>
         <span class="ac-side-chevron">›</span>
-      </a></li>
-    `).join('');
+      </a></li>`;
+    }).join('');
     $('#acCategoriesSection').hidden = !cats.length;
 
     // Sidebar: Recommended (trending) — search ico
@@ -403,16 +442,14 @@
     // "Show more" CTA
     $('#acShowMore').addEventListener('click', () => applyToPage(acInput.value));
 
-    // Click result
+    // Trending searches → internal re-search; categories/items are real <a>
+    // links and use the default browser navigation.
     overlay.addEventListener('click', (e) => {
       const link = e.target.closest('.ac-side-link[data-trend]');
       if (link) {
         e.preventDefault();
         applyToPage(link.dataset.trend);
-        return;
       }
-      const item = e.target.closest('.ac-item');
-      if (item) applyToPage(acInput.value);
     });
 
     // Tell us — close autocomplete; link opens Tally form in a new tab via href.
