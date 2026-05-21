@@ -358,13 +358,10 @@
     $('#acArticlesCount').textContent = `${(counts.articles ?? articles.length).toLocaleString()} results`;
     $('#acArticlesList').innerHTML = articles.map((a, i) => {
       const href = escAttr(prusaUrl(a, 'article'));
-      const thumb = a.image
-        ? `<div class="ac-thumb ac-thumb--img"><img src="${escAttr(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
-        : `<div class="ac-thumb">${articleIco}</div>`;
       return `
         <li class="ac-item ac-item--article" data-ac-kind="article" data-ac-idx="${i}" role="option">
           <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
-            ${thumb}
+            <div class="ac-thumb">${articleIco}</div>
             <div class="ac-item-body">
               <div class="ac-item-title">${a.title}</div>
             </div>
@@ -379,13 +376,10 @@
     $('#acBlogCount').textContent = `${(counts.blog ?? blog.length).toLocaleString()} results`;
     $('#acBlogList').innerHTML = blog.map((b, i) => {
       const href = escAttr(prusaUrl(b, 'blog'));
-      const thumb = b.image
-        ? `<div class="ac-thumb ac-thumb--img"><img src="${escAttr(b.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
-        : `<div class="ac-thumb">${blogIco}</div>`;
       return `
         <li class="ac-item ac-item--blog" data-ac-kind="blog" data-ac-idx="${i}" role="option">
           <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
-            ${thumb}
+            <div class="ac-thumb">${blogIco}</div>
             <div class="ac-item-body">
               <div class="ac-item-title">${b.title}</div>
             </div>
