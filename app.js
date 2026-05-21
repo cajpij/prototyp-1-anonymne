@@ -294,9 +294,10 @@
   let acItems = []; // flattened active list for keyboard nav
   let acActiveIdx = -1;
 
+  // Lucide icons — proper file-text for articles, newspaper for blog
   const productIco = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>';
-  const articleIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><circle cx="10" cy="13" r="1"/><path d="M10 17v-1"/></svg>';
-  const blogIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2 2 2 0 0 1-2-2V11a2 2 0 0 1 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>';
+  const articleIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>';
+  const blogIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>';
   const searchIco = '<svg class="ac-side-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>';
 
   function openAutocomplete(q) {
@@ -357,10 +358,13 @@
     $('#acArticlesCount').textContent = `${(counts.articles ?? articles.length).toLocaleString()} results`;
     $('#acArticlesList').innerHTML = articles.map((a, i) => {
       const href = escAttr(prusaUrl(a, 'article'));
+      const thumb = a.image
+        ? `<div class="ac-thumb ac-thumb--img"><img src="${escAttr(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
+        : `<div class="ac-thumb">${articleIco}</div>`;
       return `
         <li class="ac-item ac-item--article" data-ac-kind="article" data-ac-idx="${i}" role="option">
           <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
-            <div class="ac-thumb">${articleIco}</div>
+            ${thumb}
             <div class="ac-item-body">
               <div class="ac-item-title">${a.title}</div>
             </div>
@@ -375,10 +379,13 @@
     $('#acBlogCount').textContent = `${(counts.blog ?? blog.length).toLocaleString()} results`;
     $('#acBlogList').innerHTML = blog.map((b, i) => {
       const href = escAttr(prusaUrl(b, 'blog'));
+      const thumb = b.image
+        ? `<div class="ac-thumb ac-thumb--img"><img src="${escAttr(b.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
+        : `<div class="ac-thumb">${blogIco}</div>`;
       return `
         <li class="ac-item ac-item--blog" data-ac-kind="blog" data-ac-idx="${i}" role="option">
           <a class="ac-item-link" href="${href}" target="_blank" rel="noopener">
-            <div class="ac-thumb">${blogIco}</div>
+            ${thumb}
             <div class="ac-item-body">
               <div class="ac-item-title">${b.title}</div>
             </div>

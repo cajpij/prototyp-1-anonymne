@@ -436,7 +436,8 @@
               "text": "Release notes"
             }
           ],
-          "url": "https://help.prusa3d.com/article/mmu3-firmware-compatibility_470808"
+          "url": "https://help.prusa3d.com/article/mmu3-firmware-compatibility_470808",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2025/06/504594017427b052a5a155bbc2f3bf0b.jpg"
         },
         {
           "title": "MMU3 Compatibility",
@@ -450,7 +451,8 @@
               "text": "Compatibility"
             }
           ],
-          "url": "https://help.prusa3d.com/article/mmu3-compatibility_470808"
+          "url": "https://help.prusa3d.com/article/mmu3-compatibility_470808",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2025/06/504594017427b052a5a155bbc2f3bf0b.jpg"
         }
       ],
       "blog": [
@@ -469,7 +471,8 @@
               "text": "MMU3"
             }
           ],
-          "url": "https://blog.prusa3d.com/mmu3-for-the-prusa-core-one-is-here_115073/"
+          "url": "https://blog.prusa3d.com/mmu3-for-the-prusa-core-one-is-here_115073/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2025/05/0a1c6c7f-thumbnail2.jpg"
         }
       ],
       "sidebar": {
@@ -720,7 +723,8 @@
               "variant": "info"
             }
           ],
-          "url": "https://help.prusa3d.com/article/prusa-uss-drybox_1014382"
+          "url": "https://help.prusa3d.com/article/prusa-uss-drybox_1014382",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2026/02/99a7e548ddf603e05f59ecd7505a27c0.jpg"
         },
         {
           "title": "Prusa Pro Filament Drybox",
@@ -734,7 +738,8 @@
               "text": "Hardware"
             }
           ],
-          "url": "https://help.prusa3d.com/article/prusa-pro-filament-drybox_725964"
+          "url": "https://help.prusa3d.com/article/prusa-pro-filament-drybox_725964",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2024/06/ef8c4f0408924173ffc5083923b26f3c.jpg"
         }
       ],
       "blog": [
@@ -750,7 +755,8 @@
               "text": "Guide"
             }
           ],
-          "url": "https://blog.prusa3d.com/dryboxes-and-alternative-spool-holders-not-only-for-multimaterial-upgrade_30525/"
+          "url": "https://blog.prusa3d.com/dryboxes-and-alternative-spool-holders-not-only-for-multimaterial-upgrade_30525/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2019/07/P1522760-1024x577.jpg"
         }
       ],
       "sidebar": {
@@ -884,7 +890,8 @@
               "text": "CORE One"
             }
           ],
-          "url": "https://blog.prusa3d.com/prusa-core-one-indx-orders-now-open_134915/"
+          "url": "https://blog.prusa3d.com/prusa-core-one-indx-orders-now-open_134915/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2026/04/e7d2db41-indx_orders_now_open_blog_v3.jpg"
         },
         {
           "title": "Introducing the INDX! Fast and affordable 8-material printing exclusively on the CORE One",
@@ -897,7 +904,8 @@
               "text": "INDX"
             }
           ],
-          "url": "https://blog.prusa3d.com/introducing-the-indx-fast-and-affordable-8-material-printing-exclusively-on-the-core-one_125242/"
+          "url": "https://blog.prusa3d.com/introducing-the-indx-fast-and-affordable-8-material-printing-exclusively-on-the-core-one_125242/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2025/11/ce165586-bondtech_indx_1920x920-3.jpg"
         }
       ],
       "sidebar": {
@@ -1115,7 +1123,8 @@
               "text": "CORE One"
             }
           ],
-          "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/"
+          "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2026/01/6bb9c927-explore_the_core_one_blog_v01.jpg"
         },
         {
           "title": "Behind the design of CORE One — interview with the engineering team",
@@ -1128,7 +1137,8 @@
               "text": "CORE One"
             }
           ],
-          "url": "https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/"
+          "url": "https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2024/11/448e5406-blog_698x325_update.jpg"
         },
         {
           "title": "Top 10 community prints made on CORE One in March",
@@ -1142,7 +1152,8 @@
               "text": "CORE One"
             }
           ],
-          "url": "https://blog.prusa3d.com/category/featured_8/"
+          "url": "https://blog.prusa3d.com/category/featured_8/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2024/01/027f8593-blog_og_image_1.png"
         },
         {
           "title": "From MK4 to CORE One — migration guide for power users",
@@ -1152,7 +1163,8 @@
               "text": "Guide"
             }
           ],
-          "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/"
+          "url": "https://blog.prusa3d.com/exploring-core-one-new-features-upgrades-indx_128466/",
+          "image": "https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-blog-prod/2026/01/6bb9c927-explore_the_core_one_blog_v01.jpg"
         }
       ],
       "sidebar": {
