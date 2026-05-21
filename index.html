@@ -53,7 +53,7 @@
 
     <!-- Search section -->
     <section class="search-section">
-      <form class="searchbox" id="searchForm" role="search">
+      <form class="searchbox" id="searchForm" role="search" aria-haspopup="dialog" aria-expanded="false" aria-owns="autocomplete">
         <input type="search" id="searchInput" value="" autocomplete="off" placeholder="Search printers, parts, articles…" />
         <button class="search-submit" type="submit" aria-label="Search">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
@@ -166,6 +166,82 @@
 
   <!-- Cart toast -->
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Autocomplete modal — opens on search-input focus -->
+  <div class="ac-overlay" id="acOverlay" hidden>
+    <div class="ac-backdrop" data-ac-close></div>
+    <div class="ac-modal" role="dialog" aria-modal="true" aria-labelledby="acInput">
+      <!-- Embedded search input at top -->
+      <div class="ac-header">
+        <div class="ac-input-wrap">
+          <svg class="ac-input-ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="acInput" autocomplete="off" placeholder="Search printers, parts, articles…" />
+          <button type="button" class="ac-clear" id="acClear">Clear</button>
+          <span class="ac-divider"></span>
+          <button type="button" class="ac-close" data-ac-close aria-label="Close search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="ac-body">
+        <div class="ac-main">
+          <section class="ac-section" id="acGoodsSection">
+            <header class="ac-section-head">
+              <h4 class="ac-section-title">Goods</h4>
+              <span class="ac-section-count" id="acGoodsCount"></span>
+            </header>
+            <ul class="ac-list" id="acGoodsList"></ul>
+          </section>
+
+          <section class="ac-section" id="acArticlesSection">
+            <header class="ac-section-head">
+              <h4 class="ac-section-title">Articles &amp; Support</h4>
+              <span class="ac-section-count" id="acArticlesCount"></span>
+            </header>
+            <ul class="ac-list" id="acArticlesList"></ul>
+          </section>
+
+          <section class="ac-section" id="acBlogSection">
+            <header class="ac-section-head">
+              <h4 class="ac-section-title">Blog</h4>
+              <span class="ac-section-count" id="acBlogCount"></span>
+            </header>
+            <ul class="ac-list" id="acBlogList"></ul>
+          </section>
+
+          <div class="ac-empty" id="acEmpty" hidden>
+            <p>No results yet — try a different keyword.</p>
+          </div>
+        </div>
+
+        <aside class="ac-side">
+          <section class="ac-side-block" id="acCategoriesSection">
+            <h4 class="ac-side-title">Popular Categories</h4>
+            <ul class="ac-side-list" id="acCategoriesList"></ul>
+          </section>
+          <section class="ac-side-block" id="acRecommendedSection">
+            <h4 class="ac-side-title">Recommended</h4>
+            <ul class="ac-side-list" id="acRecommendedList"></ul>
+          </section>
+        </aside>
+      </div>
+
+      <button type="button" class="ac-show-more" id="acShowMore">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <span>Show more <strong id="acShowMoreCount">0</strong> results for <strong id="acShowMoreQuery">""</strong></span>
+      </button>
+
+      <div class="ac-footer">
+        <div class="ac-kbd-list">
+          <span class="ac-kbd-group"><kbd>↑</kbd><kbd>↓</kbd>&nbsp;Select</span>
+          <span class="ac-kbd-group"><kbd>↵</kbd>&nbsp;Open</span>
+          <span class="ac-kbd-group"><kbd>Esc</kbd>&nbsp;Close search</span>
+        </div>
+        <a href="#" class="ac-tell" id="acTell">Can't find it? Tell us →</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Moderator panel — hidden by default. Toggle with `?` key (or `m`). -->
   <div class="mod-panel" id="moderatorPanel" hidden>

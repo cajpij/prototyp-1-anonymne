@@ -25,6 +25,7 @@
       const q = new URLSearchParams(location.search).get('q') || '';
       applyQuery(q);
       wireSearchInput();
+      wireAutocomplete();
       wireModeratorPanel();
     })
     .catch(err => {
@@ -240,10 +241,219 @@
       clearTimeout(debounce);
       debounce = setTimeout(() => applyQuery(input.value), 150);
     });
+    // Opening autocomplete on focus/click is wired in wireAutocomplete()
     $('#searchForm').addEventListener('submit', (e) => {
       e.preventDefault();
       applyQuery(input.value);
     });
+  }
+
+  // ===== Autocomplete (modal-style overlay) =====
+  let acItems = []; // flattened active list for keyboard nav
+  let acActiveIdx = -1;
+
+  const productIco = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>';
+  const articleIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><circle cx="10" cy="13" r="1"/><path d="M10 17v-1"/></svg>';
+  const blogIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2 2 2 0 0 1-2-2V11a2 2 0 0 1 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>';
+  const searchIco = '<svg class="ac-side-ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>';
+
+  function openAutocomplete(q) {
+    const overlay = $('#acOverlay');
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    $('.searchbox').setAttribute('aria-expanded', 'true');
+    const acInput = $('#acInput');
+    acInput.value = q || '';
+    renderAutocomplete(q || '');
+    // focus into the modal input next tick
+    setTimeout(() => acInput.focus(), 0);
+  }
+  function closeAutocomplete() {
+    const overlay = $('#acOverlay');
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+    $('.searchbox').setAttribute('aria-expanded', 'false');
+    acItems = [];
+    acActiveIdx = -1;
+  }
+
+  function renderAutocomplete(q) {
+    const { data } = resolveQuery(q);
+    const echo = (q || '').trim();
+    $('#acShowMoreQuery').textContent = `"${echo || 'all products'}"`;
+    $('#acShowMoreCount').textContent = (data.totalResults || 0).toLocaleString();
+    $('#acClear').hidden = !echo;
+
+    const counts = data.tabs || {};
+
+    // Goods — top 4
+    const goods = (data.goods || []).slice(0, 4);
+    $('#acGoodsCount').textContent = `${(counts.products ?? goods.length).toLocaleString()} results`;
+    $('#acGoodsList').innerHTML = goods.map((p, i) => {
+      const stockClass = p.stock === 'ok' ? 'stock-ok' : p.stock === 'low' ? 'stock-low' : 'stock-none';
+      const stockLabel = p.stockLabel || (p.stock === 'ok' ? 'In stock' : p.stock === 'low' ? 'Low stock' : 'Sold out');
+      return `
+        <li class="ac-item ac-item--product" data-ac-kind="product" data-ac-idx="${i}" role="option" tabindex="-1">
+          <div class="ac-thumb">${productIco}</div>
+          <div class="ac-item-body">
+            <div class="ac-item-title">${p.name}</div>
+            <div class="ac-item-stock ${stockClass}"><span class="dot"></span>${stockLabel}</div>
+          </div>
+        </li>
+      `;
+    }).join('');
+    $('#acGoodsSection').hidden = !goods.length;
+
+    // Articles — top 3
+    const articles = (data.articles || []).slice(0, 3);
+    $('#acArticlesCount').textContent = `${(counts.articles ?? articles.length).toLocaleString()} results`;
+    $('#acArticlesList').innerHTML = articles.map((a, i) => `
+      <li class="ac-item ac-item--article" data-ac-kind="article" data-ac-idx="${i}" role="option" tabindex="-1">
+        <div class="ac-thumb">${articleIco}</div>
+        <div class="ac-item-body">
+          <div class="ac-item-title">${a.title}</div>
+        </div>
+      </li>
+    `).join('');
+    $('#acArticlesSection').hidden = !articles.length;
+
+    // Blog — top 3
+    const blog = (data.blog || []).slice(0, 3);
+    $('#acBlogCount').textContent = `${(counts.blog ?? blog.length).toLocaleString()} results`;
+    $('#acBlogList').innerHTML = blog.map((b, i) => `
+      <li class="ac-item ac-item--blog" data-ac-kind="blog" data-ac-idx="${i}" role="option" tabindex="-1">
+        <div class="ac-thumb">${blogIco}</div>
+        <div class="ac-item-body">
+          <div class="ac-item-title">${b.title}</div>
+        </div>
+      </li>
+    `).join('');
+    $('#acBlogSection').hidden = !blog.length;
+
+    // Empty
+    $('#acEmpty').hidden = !!(goods.length || articles.length || blog.length);
+
+    // Sidebar: Categories — with chevron
+    const cats = (data.sidebar && data.sidebar.popularCategories) || [];
+    $('#acCategoriesList').innerHTML = cats.slice(0, 6).map(c => `
+      <li><a class="ac-side-link ac-cat" data-trend="${c.title}" href="#">
+        <span>${c.title}</span>
+        <span class="ac-side-chevron">›</span>
+      </a></li>
+    `).join('');
+    $('#acCategoriesSection').hidden = !cats.length;
+
+    // Sidebar: Recommended (trending) — search ico
+    const trend = (data.sidebar && data.sidebar.trendingSearches) || [];
+    $('#acRecommendedList').innerHTML = trend.slice(0, 6).map(t => `
+      <li><a class="ac-side-link ac-rec" data-trend="${t.label}" href="#">${searchIco}<span>${t.label}</span></a></li>
+    `).join('');
+    $('#acRecommendedSection').hidden = !trend.length;
+
+    // rebuild flat keyboard list
+    acItems = Array.from(document.querySelectorAll('#acOverlay .ac-item, #acOverlay .ac-side-link'));
+    acActiveIdx = -1;
+    setActiveAcItem(-1);
+  }
+
+  function setActiveAcItem(idx) {
+    acItems.forEach((el, i) => el.classList.toggle('is-active', i === idx));
+    acActiveIdx = idx;
+    if (idx >= 0 && acItems[idx]) acItems[idx].scrollIntoView({ block: 'nearest' });
+  }
+
+  function wireAutocomplete() {
+    const overlay = $('#acOverlay');
+    const pageInput = $('#searchInput');
+    const acInput = $('#acInput');
+
+    // Open on focus / click of the page search input
+    pageInput.addEventListener('focus', () => openAutocomplete(pageInput.value));
+    pageInput.addEventListener('click', () => {
+      if (overlay.hidden) openAutocomplete(pageInput.value);
+    });
+
+    // Modal input typing — re-render
+    let acDebounce;
+    acInput.addEventListener('input', () => {
+      clearTimeout(acDebounce);
+      acDebounce = setTimeout(() => renderAutocomplete(acInput.value), 120);
+    });
+
+    // Modal input submit (Enter) — apply query + close
+    acInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && acActiveIdx === -1) {
+        e.preventDefault();
+        applyToPage(acInput.value);
+      }
+    });
+
+    // Backdrop / × close
+    overlay.addEventListener('click', (e) => {
+      if (e.target.closest('[data-ac-close]')) closeAutocomplete();
+    });
+
+    // Clear button
+    $('#acClear').addEventListener('click', () => {
+      acInput.value = '';
+      renderAutocomplete('');
+      acInput.focus();
+    });
+
+    // "Show more" CTA
+    $('#acShowMore').addEventListener('click', () => applyToPage(acInput.value));
+
+    // Click result
+    overlay.addEventListener('click', (e) => {
+      const link = e.target.closest('.ac-side-link[data-trend]');
+      if (link) {
+        e.preventDefault();
+        applyToPage(link.dataset.trend);
+        return;
+      }
+      const item = e.target.closest('.ac-item');
+      if (item) applyToPage(acInput.value);
+    });
+
+    // Tell us
+    $('#acTell').addEventListener('click', (e) => {
+      e.preventDefault();
+      closeAutocomplete();
+      showToast('Tell us — feedback flow stub');
+    });
+
+    // Keyboard nav (active when overlay is open)
+    document.addEventListener('keydown', (e) => {
+      if (overlay.hidden) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closeAutocomplete();
+        pageInput.blur();
+        return;
+      }
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setActiveAcItem(Math.min(acItems.length - 1, acActiveIdx + 1));
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setActiveAcItem(Math.max(-1, acActiveIdx - 1));
+        return;
+      }
+      if (e.key === 'Enter' && acActiveIdx >= 0 && acItems[acActiveIdx]) {
+        e.preventDefault();
+        acItems[acActiveIdx].click();
+      }
+    });
+
+    function applyToPage(q) {
+      pageInput.value = q;
+      applyQuery(q);
+      closeAutocomplete();
+      pageInput.blur();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   // ===== Cart =====
