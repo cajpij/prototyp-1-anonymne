@@ -262,6 +262,12 @@ img { max-width: 100%; display: block; }
   min-width: 0;
 }
 #acInput::placeholder { color: var(--fg-muted); }
+/* Hide the browser default search clear (×) — we render our own "Clear" button. */
+#acInput::-webkit-search-cancel-button,
+#acInput::-webkit-search-decoration,
+#acInput::-webkit-search-results-button,
+#acInput::-webkit-search-results-decoration { -webkit-appearance: none; display: none; }
+#acInput::-ms-clear, #acInput::-ms-reveal { display: none; }
 .ac-clear {
   background: none; border: 0; cursor: pointer;
   color: var(--primary); font: inherit; font-size: var(--text-sm);
@@ -397,11 +403,13 @@ img { max-width: 100%; display: block; }
 }
 .ac-empty[hidden] { display: none; }
 
-/* Show more — orange CTA */
+/* Show more — orange CTA. Inset from modal edges for breathing room. */
 .ac-show-more {
   background: var(--primary); color: var(--primary-foreground);
   border: 0; cursor: pointer;
+  margin: 0 var(--space-16) var(--space-16);
   padding: var(--space-12) var(--space-16);
+  border-radius: var(--radius-md);
   font-size: 15px; font-weight: var(--fw-semibold);
   font-family: inherit;
   display: flex; align-items: center; justify-content: center; gap: var(--space-2);
@@ -420,25 +428,36 @@ img { max-width: 100%; display: block; }
 }
 .ac-kbd-list { display: flex; align-items: center; gap: var(--space-16); }
 .ac-kbd-group {
-  display: inline-flex; align-items: center; gap: 4px;
-  font-size: var(--text-xs); color: var(--fg-muted);
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: var(--text-sm); color: var(--fg);
 }
+/* Kbd — Prusa DS component (page 22977:727124). Plain Inter, fg text,
+   subtle outline + thicker bottom border for the "key cap" feel. */
 .ac-kbd-group kbd {
-  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 10px; font-weight: var(--fw-semibold);
+  font-family: var(--font-body);
+  font-size: var(--text-xs); font-weight: var(--fw-semibold);
   background: var(--bg);
   border: var(--border-1) solid var(--line-strong);
   border-bottom-width: 2px;
-  padding: 1px 5px; border-radius: var(--radius-xs);
-  color: var(--primary);
-  min-width: 20px; text-align: center;
+  padding: 1px 6px;
+  border-radius: var(--radius-xs);
+  color: var(--fg);
+  min-width: 22px; height: 22px;
+  display: inline-flex; align-items: center; justify-content: center;
+  box-shadow: 0 1px 0 var(--bg-subtle) inset;
 }
+/* Tell-us — Ghost button (Prusa DS Button, variant=Ghost, color=Primary).
+   Looks like a link in body context; gains subtle hover background. */
 .ac-tell {
-  font-size: var(--text-sm); color: var(--primary);
-  text-decoration: none; font-weight: var(--fw-semibold);
-  padding: 4px 8px; border-radius: var(--radius-xs);
+  display: inline-flex; align-items: center; gap: 4px;
+  font: inherit; font-size: var(--text-sm);
+  color: var(--primary); font-weight: var(--fw-semibold);
+  text-decoration: none;
+  padding: 6px var(--space-2);
+  border-radius: var(--radius-sm);
+  transition: background .12s, color .12s;
 }
-.ac-tell:hover { background: var(--secondary); }
+.ac-tell:hover { background: var(--secondary); color: var(--primary-hover); }
 
 @media (max-width: 1024px) {
   .ac-body { grid-template-columns: 1fr; }
