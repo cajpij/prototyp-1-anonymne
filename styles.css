@@ -158,13 +158,11 @@ img { max-width: 100%; display: block; }
 }
 .hamburger { display: none; }
 .logo {
-  font-family: var(--font-heading);
-  font-weight: var(--fw-extrabold); font-size: 18px;
-  letter-spacing: .04em;
-  color: var(--primary);
-  text-decoration: none;
+  display: inline-flex; align-items: center;
   flex-shrink: 0;
+  height: 36px;
 }
+.logo img { height: 100%; width: auto; display: block; }
 .primary-nav {
   display: flex; align-items: center; gap: 22px;
   flex: 1;
