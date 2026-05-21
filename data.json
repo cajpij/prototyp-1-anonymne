@@ -271,6 +271,278 @@
     }
   },
   "queries": {
+    "hotend": {
+      "totalResults": 93,
+      "tabs": {
+        "all": 93,
+        "products": 90,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "Nextruder Hotend brass - 0.40 mm",
+        "description": "Fully assembled Hotend for the Nextruder — the next-gen print head used on MK4/S, MK3.9/S, XL, CORE One/+ and CORE One L. Quick-swap design, integrated thermistor, brass nozzle.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 1,299",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-40-mm/"
+      },
+      "goods": [
+        {
+          "name": "Nextruder Hotend brass - 0.40 mm",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-40-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/c3e684ba-4cb8-477b-98c0-7a1746991977.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass High Flow - 0.40 mm",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-high-flow-0-40-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3653827e-0c0d-4070-abd4-b73d340d426c.jpg"
+        },
+        {
+          "name": "Assembled hotend (for MK3 series)",
+          "price": "CZK 2,090",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/assembled-hotend-for-mk3-series/",
+          "image": "https://www.prusa3d.com/content/images/product/df643631-3b36-4ddf-8033-4673d3cebc1b.jpg"
+        },
+        {
+          "name": "Hotend thermistor",
+          "price": "CZK 249",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-thermistor/",
+          "image": "https://www.prusa3d.com/content/images/product/435.jpg"
+        },
+        {
+          "name": "Hotend heatsink",
+          "price": "CZK 1,259",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-heatsink-2/",
+          "image": "https://www.prusa3d.com/content/images/product/5451.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass High Flow - 0.60 mm",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-high-flow-0-60-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/0224831b-c644-49cc-819b-7ab16b179884.jpg"
+        },
+        {
+          "name": "Hotend heaterblock",
+          "price": "CZK 449",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-heaterblock/",
+          "image": "https://www.prusa3d.com/content/images/product/424.jpg"
+        },
+        {
+          "name": "Hotend heater cartridge 24V 40W (MK3/S/+)",
+          "price": "CZK 189",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-heater-cartridge-24v-40w-mk3-s/",
+          "image": "https://www.prusa3d.com/content/images/product/456.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass - 0.60 mm",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-60-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/ec39a72e-a8c7-4c80-83c5-1dadccd4edf8.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass - 0.80 mm",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-80-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/c2b648ef-809b-4255-b5c1-8f71034c73a8.jpg"
+        },
+        {
+          "name": "Hotend heatbreak (MK3/S/+, MK2.5/S, MMU2S)",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-heatbreak-mk3-s-mk2-5-s-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/432.jpg"
+        },
+        {
+          "name": "Assembled hotend MINI/+",
+          "price": "CZK 1,999",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/assembled-hotend-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1706.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MK2.5S, MK3S, MMU2S)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk2-5s-mk3s-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/510.jpg"
+        },
+        {
+          "name": "Hotend fan MK4/3.9/XL",
+          "price": "CZK 249",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-fan-mk4-3-9-xl/",
+          "image": "https://www.prusa3d.com/content/images/product/a63ed130-b85c-4257-a36c-a0a093459171.jpg"
+        },
+        {
+          "name": "Hotend fan MK3/S/+",
+          "price": "CZK 349",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-fan/",
+          "image": "https://www.prusa3d.com/content/images/product/3243.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MK3S+, MMU2S)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mk3s-mmu2s/",
+          "image": "https://www.prusa3d.com/content/images/product/521.jpg"
+        },
+        {
+          "name": "Hotend PTFE tube (MINI/+)",
+          "price": "CZK 25",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-ptfe-tube-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1754.jpg"
+        },
+        {
+          "name": "Hotend thermistor (MINI/+)",
+          "price": "CZK 249",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-thermistor-mini/",
+          "image": "https://www.prusa3d.com/content/images/product/1776.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "Hotend — extruder componentry",
+          "description": "What the hotend is, the parts that make it up (heatbreak / heaterblock / heatsink / heater cartridge / thermistor / nozzle), and how Nextruder differs from E3D V6.",
+          "badges": [
+            {
+              "text": "Glossary",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/glossary/hotend_128859",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/hotend-4.jpg"
+        },
+        {
+          "title": "Hotend fan",
+          "description": "Role of the hotend fan: keeps the heatsink cool to prevent heat creep. Difference between hotend fan and print (part-cooling) fan, when to replace it, and how.",
+          "badges": [
+            {
+              "text": "Glossary",
+              "variant": "info"
+            }
+          ],
+          "url": "https://help.prusa3d.com/glossary/hotendlufter_179805",
+          "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2020/11/12721358_noctua_black1-1.jpg"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Everything about nozzles with a different diameter",
+          "description": "Companion piece for nozzle and hotend swaps. Smaller diameters (0.25mm) for fine detail, larger (0.6/0.8mm) for speed and strength. Includes recommended PrusaSlicer settings.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/everything-about-nozzles-with-a-different-diameter_8344/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2018/06/featured.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Nextruder Hotend",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "Hotend Spare parts",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "MK3/S/+ Hotend",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "MINI/+ Hotend",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "hotend"
+          },
+          {
+            "label": "hotend fan"
+          },
+          {
+            "label": "hotend thermistor"
+          },
+          {
+            "label": "hotend ptfe tube"
+          },
+          {
+            "label": "nextruder hotend"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "How to replace a hotend assembly (CORE One)",
+            "url": "https://help.prusa3d.com/guide/how-to-replace-a-hotend-assembly-core-one_385707"
+          },
+          {
+            "title": "How to replace a hotend assembly (MK4 / MK3.9)",
+            "url": "https://help.prusa3d.com/guide/how-to-replace-a-hotend-assembly-mk4-mk3-9_645439"
+          },
+          {
+            "title": "Changing or replacing the Nextruder Hotend",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-nextruder-hotend_768975"
+          },
+          {
+            "title": "Hotend disassembly & stuck heatbreak",
+            "url": "https://help.prusa3d.com/article/hotend-disassembly-heatbreak-stuck-in-the-heatsink_112677"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Hotend assembly",
+            "url": "https://help.prusa3d.com/guide/5-extruder-assembly_82960"
+          },
+          {
+            "title": "Hotend replacement",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-nextruder-hotend_768975"
+          },
+          {
+            "title": "Clogged nozzle",
+            "url": "https://help.prusa3d.com/article/clogged-nozzle-core-one-core-one-l-xl-mk4-s-mk3-9-s_411823"
+          },
+          {
+            "title": "Different nozzle types",
+            "url": "https://help.prusa3d.com/article/different-nozzle-types_2193"
+          },
+          {
+            "title": "Printer maintenance",
+            "url": "https://help.prusa3d.com/product/core-one/printer-maintenance_247"
+          }
+        ]
+      }
+    },
     "nozzle": {
       "totalResults": 443,
       "tabs": {
