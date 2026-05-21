@@ -271,6 +271,288 @@
     }
   },
   "queries": {
+    "nextruder": {
+      "totalResults": 158,
+      "tabs": {
+        "all": 158,
+        "products": 155,
+        "articles": 2,
+        "blog": 1,
+        "models": 0
+      },
+      "highlighted": {
+        "title": "XL Multi-Tool Nextruder",
+        "description": "Complete Nextruder assembly for Original Prusa XL Multi-Tool. Pre-built with load-cell first-layer calibration, quick-swap nozzles, and integrated thermistor — drop-in replacement.",
+        "badges": [
+          {
+            "text": "Best match",
+            "variant": "accent"
+          },
+          {
+            "text": "In stock",
+            "variant": "success"
+          }
+        ],
+        "price": "CZK 8,499",
+        "image": null,
+        "url": "https://www.prusa3d.com/product/xl-multi-tool-nextruder-3/"
+      },
+      "goods": [
+        {
+          "name": "XL Multi-Tool Nextruder",
+          "price": "CZK 8,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/xl-multi-tool-nextruder-3/",
+          "image": "https://www.prusa3d.com/content/images/product/3c8f934a-b71e-41a0-b88b-c34b18d02a4b.jpg"
+        },
+        {
+          "name": "FAN SHROUD",
+          "price": "CZK 99",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/fan-shroud/",
+          "image": "https://www.prusa3d.com/content/images/product/579bd2ad-4d55-4ae2-9898-9e9032c2802d.jpg"
+        },
+        {
+          "name": "Prusa Nextruder Silicone sock - set",
+          "price": "CZK 149",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nextruder-silicone-sock-set/",
+          "image": "https://www.prusa3d.com/content/images/product/3b23de80-ce4f-4356-9770-885393283707.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass High Flow - 0.40 mm",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-high-flow-0-40-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/3653827e-0c0d-4070-abd4-b73d340d426c.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass - 0.40 mm",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-40-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/c3e684ba-4cb8-477b-98c0-7a1746991977.jpg"
+        },
+        {
+          "name": "Thermistor NTC 100k - 115 mm",
+          "price": "CZK 299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/thermistor-ntc-100k-115-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/9e4ee773-c070-4777-821c-dc3866a2a049.jpg"
+        },
+        {
+          "name": "Nozzle Cleaning Needle 5pcs",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nozzle-cleaning-needle-5pcs/",
+          "image": "https://www.prusa3d.com/content/images/product/e3d1aff8-f714-4eaf-97f5-569212042ac7.jpg"
+        },
+        {
+          "name": "Heater 40 W - 120 mm",
+          "price": "CZK 299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/heater-40-w-120-mm-2/",
+          "image": "https://www.prusa3d.com/content/images/product/c73f9ccb-2960-40a6-b0d8-3d7130a7774c.jpg"
+        },
+        {
+          "name": "Hotend heatsink",
+          "price": "CZK 1,259",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/hotend-heatsink-2/",
+          "image": "https://www.prusa3d.com/content/images/product/5451.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass CHT - 0.6 mm",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht/",
+          "image": "https://www.prusa3d.com/content/images/product/ed66edcb-16a8-4137-870f-88cbec497e1e.jpg"
+        },
+        {
+          "name": "Heatsink Thermistor NTC 100k - 90 mm",
+          "price": "CZK 299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/heatsink-thermistor-ntc-100k-90-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/c7b02303-a84d-4396-bc51-dc364de4c86b.jpg"
+        },
+        {
+          "name": "Nextruder heaterblock",
+          "price": "CZK 349",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-heaterblock/",
+          "image": "https://www.prusa3d.com/content/images/product/b01fd2be-1499-4ffd-96f3-f1528cd0e1ff.jpg"
+        },
+        {
+          "name": "Nextruder V6 Nozzle Adapter",
+          "price": "CZK 499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-v6-nozzle-adapter/",
+          "image": "https://www.prusa3d.com/content/images/product/5727.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass High Flow - 0.60 mm",
+          "price": "CZK 1,499",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-high-flow-0-60-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/0224831b-c644-49cc-819b-7ab16b179884.jpg"
+        },
+        {
+          "name": "Set PG Assembly + PG Ring",
+          "price": "CZK 1,990",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/set-pg-assembly-pg-ring/",
+          "image": "https://www.prusa3d.com/content/images/product/6d22554e-2780-4790-adb4-70a8b9d3940c.jpg"
+        },
+        {
+          "name": "Prusa Nozzle brass CHT - 0.4 mm",
+          "price": "CZK 699",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/prusa-nozzle-brass-cht-0-4-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/e211bf7e-c7f1-464a-8a32-35b6e49e92ac.jpg"
+        },
+        {
+          "name": "Thumb screw M4x8",
+          "price": "CZK 49",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/thumb-screw-m4x8/",
+          "image": "https://www.prusa3d.com/content/images/product/e158af3a-57c3-43df-bef8-ac457f92ebdf.jpg"
+        },
+        {
+          "name": "Nextruder Hotend brass - 0.60 mm",
+          "price": "CZK 1,299",
+          "stock": "ok",
+          "url": "https://www.prusa3d.com/product/nextruder-hotend-brass-0-60-mm/",
+          "image": "https://www.prusa3d.com/content/images/product/ec39a72e-a8c7-4c80-83c5-1dadccd4edf8.jpg"
+        }
+      ],
+      "articles": [
+        {
+          "title": "How to install the Nextruder V6 Nozzle Adapter (MK4/MK3.9)",
+          "description": "Step-by-step guide to install the V6 adapter on MK4/MK3.9. Covers hotend protection, removal, and final torque settings. Lets you swap to any V6-compatible nozzle.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            },
+            {
+              "text": "MK4 / MK3.9"
+            }
+          ],
+          "url": "https://help.prusa3d.com/guide/how-to-install-the-nextruder-v6-nozzle-adapter-mk4-mk3-9_416174"
+        },
+        {
+          "title": "How to install the Nextruder V6 Nozzle Adapter (MK4S/MK3.9S)",
+          "description": "MK4S/MK3.9S-specific guide for the V6 adapter. Updated procedure for the new heaterblock and high-flow hotend variants.",
+          "badges": [
+            {
+              "text": "Guide",
+              "variant": "info"
+            },
+            {
+              "text": "MK4S / MK3.9S"
+            }
+          ],
+          "url": "https://help.prusa3d.com/guide/how-to-install-the-nextruder-v6-nozzle-adapter-mk4s-mk3-9s_789920"
+        }
+      ],
+      "blog": [
+        {
+          "title": "Original Prusa MK4 is here: Always perfect first layer, high-speed printing with Input shaper, 32-bit platform, Nextruder, MMU3. SHIPPING NOW!",
+          "description": "The launch post for the MK4 — introduces the Nextruder, load-cell first-layer calibration, 32-bit xBuddy board, Input Shaper, and Pressure Advance. The original Nextruder reveal.",
+          "badges": [
+            {
+              "text": "News",
+              "variant": "accent"
+            },
+            {
+              "text": "MK4"
+            },
+            {
+              "text": "Nextruder"
+            }
+          ],
+          "url": "https://blog.prusa3d.com/announcing-original-prusa-mk4_76585/",
+          "image": "https://blog.prusa3d.com/wp-content/uploads/2023/03/mk4_blog_otvirak_bigger.jpg"
+        }
+      ],
+      "sidebar": {
+        "popularCategories": [
+          {
+            "title": "Nextruder Nozzles",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "Nextruder Hotends",
+            "url": "https://www.prusa3d.com/category/nozzles/"
+          },
+          {
+            "title": "Nextruder Parts",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          },
+          {
+            "title": "Nextruder Upgrades",
+            "url": "https://www.prusa3d.com/category/upgrades/"
+          }
+        ],
+        "trendingSearches": [
+          {
+            "label": "nextruder"
+          },
+          {
+            "label": "nextruder heaterblock"
+          },
+          {
+            "label": "nextruder hotend"
+          },
+          {
+            "label": "nextruder nozzle"
+          },
+          {
+            "label": "tool"
+          }
+        ],
+        "usefulLinks": [
+          {
+            "title": "Installing the Nextruder V6 Adapter",
+            "url": "https://help.prusa3d.com/article/installing-or-changing-the-nextruder-v6-nozzle-adapter_823792"
+          },
+          {
+            "title": "Changing or replacing the Nextruder Hotend",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-nextruder-hotend_768975"
+          },
+          {
+            "title": "Prusa Nozzle types for Nextruder printers",
+            "url": "https://help.prusa3d.com/article/prusa-nozzle-types-for-nextruder-printers_928993"
+          },
+          {
+            "title": "Extruder assembly guide",
+            "url": "https://help.prusa3d.com/guide/5-extruder-assembly_82960"
+          }
+        ],
+        "topics": [
+          {
+            "title": "Hotend replacement",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-nextruder-hotend_768975"
+          },
+          {
+            "title": "Nozzle replacement",
+            "url": "https://help.prusa3d.com/article/changing-or-replacing-the-prusa-nozzle_734706"
+          },
+          {
+            "title": "Clogged nozzle",
+            "url": "https://help.prusa3d.com/article/clogged-nozzle-core-one-core-one-l-xl-mk4-s-mk3-9-s_411823"
+          },
+          {
+            "title": "Different nozzle types",
+            "url": "https://help.prusa3d.com/article/different-nozzle-types_2193"
+          },
+          {
+            "title": "First-layer calibration",
+            "url": "https://help.prusa3d.com/article/first-layer-calibration-i3_112364"
+          }
+        ]
+      }
+    },
     "hotend": {
       "totalResults": 93,
       "tabs": {
