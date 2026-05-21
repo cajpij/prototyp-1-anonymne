@@ -76,6 +76,7 @@
   --height-40:               40px;
 
   /* Border radius (Figma border-radius/*) */
+  --radius-2xs:              2px;
   --radius-xs:               4px;
   --radius-sm:               6px;
   --radius-md:               8px;
@@ -464,12 +465,24 @@ img { max-width: 100%; display: block; }
 .best-match-cta { display: flex; gap: var(--space-2); flex-wrap: wrap; }
 
 /* ============================================================ Badge ============================================================ */
+/* Badge — Prusa DS component, node 26:169
+   Default: variant=Secondary, color=Neutral, size=sm.
+   Spec pulled 1:1 from Figma node 20133:72575:
+   - bg #eff0f3, fg #1e1f24
+   - radius 2px (--radius-2xs)
+   - padding 2px 6px, gap 4px
+   - font Inter 600 / 12px / 16px line-height */
 .badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: var(--space-1);
   font-family: var(--font-body);
   font-size: var(--text-xs); font-weight: var(--fw-semibold);
   background: var(--neutral-secondary); color: var(--fg);
-  padding: 3px 9px; border-radius: var(--radius-lg);
+  padding: 2px 6px;
+  border: var(--border-1) solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-2xs);
   line-height: var(--leading-xs);
+  white-space: nowrap;
 }
 /* Variant classes kept for backwards compatibility — neutralized per user request. */
 .badge-accent,

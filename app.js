@@ -203,7 +203,6 @@
     setCount('products', t.products);
     setCount('articles', t.articles);
     setCount('blog',     t.blog);
-    setCount('models',   t.models);
   }
 
   function formatCount(n) {
