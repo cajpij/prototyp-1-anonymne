@@ -458,7 +458,8 @@
         "popularCategories": [
           {
             "title": "Filtration & Enclosure Accessories",
-            "url": "https://www.prusa3d.com/product/advanced-filtration-system-for-original-prusa-enclosure/"
+            "url": "https://www.prusa3d.com/product/advanced-filtration-system-for-original-prusa-enclosure/",
+            "image": "https://www.prusa3d.com/content/images/product/4929.jpg"
           }
         ],
         "trendingSearches": [
@@ -725,15 +726,18 @@
         "popularCategories": [
           {
             "title": "PETG",
-            "url": "https://www.prusa3d.com/category/petg/"
+            "url": "https://www.prusa3d.com/category/petg/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Prusament PETG",
-            "url": "https://www.prusa3d.com/category/prusament-petg/"
+            "url": "https://www.prusa3d.com/category/prusament-petg/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Prusament PETG Bundles",
-            "url": "https://www.prusa3d.com/category/prusament/"
+            "url": "https://www.prusa3d.com/category/prusament/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -1002,7 +1006,8 @@
         "popularCategories": [
           {
             "title": "Prusament TPU",
-            "url": "https://www.prusa3d.com/category/prusament-tpu/"
+            "url": "https://www.prusa3d.com/category/prusament-tpu/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -1207,7 +1212,8 @@
         "popularCategories": [
           {
             "title": "Spare Boards & Electronics",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "PrusaConnect & Cameras",
@@ -1470,15 +1476,18 @@
         "popularCategories": [
           {
             "title": "PTFE Tubes",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MMU Spare Parts",
-            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Hotend Spare Parts",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -1742,19 +1751,23 @@
         "popularCategories": [
           {
             "title": "Nextruder Nozzles",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Nextruder Hotends",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Nextruder Parts",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Nextruder Upgrades",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -2014,19 +2027,23 @@
         "popularCategories": [
           {
             "title": "Nextruder Hotend",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Hotend Spare parts",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MK3/S/+ Hotend",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MINI/+ Hotend",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -2289,19 +2306,23 @@
         "popularCategories": [
           {
             "title": "Nextruder Nozzles",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Nozzles",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "V6 Nozzles",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "HT90 Nozzles",
-            "url": "https://www.prusa3d.com/category/nozzles/"
+            "url": "https://www.prusa3d.com/category/nozzles/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -2571,15 +2592,18 @@
         "popularCategories": [
           {
             "title": "PLA",
-            "url": "https://www.prusa3d.com/category/pla/"
+            "url": "https://www.prusa3d.com/category/pla/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Prusament PLA",
-            "url": "https://www.prusa3d.com/category/prusament-pla/"
+            "url": "https://www.prusa3d.com/category/prusament-pla/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "Prusament PLA Bundles",
-            "url": "https://www.prusa3d.com/category/prusament/"
+            "url": "https://www.prusa3d.com/category/prusament/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MMU2/S Plastic Parts"
@@ -2855,23 +2879,28 @@
         "popularCategories": [
           {
             "title": "MMU3 Plastic Parts",
-            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "CORE One MMU3",
-            "url": "https://www.prusa3d.com/category/core-one-mmu3/"
+            "url": "https://www.prusa3d.com/category/core-one-mmu3/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MMU3",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MKx MMU3",
-            "url": "https://www.prusa3d.com/category/upgrades/"
+            "url": "https://www.prusa3d.com/category/upgrades/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
             "title": "MMU3 Spare parts",
-            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/"
+            "url": "https://www.prusa3d.com/category/mmu3-plastic-parts/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -3139,11 +3168,13 @@
         "popularCategories": [
           {
             "title": "Filament storage & dryboxes",
-            "url": "https://help.prusa3d.com/article/drying-filament_332086"
+            "url": "https://help.prusa3d.com/article/drying-filament_332086",
+            "image": "https://cdn.help.prusa3d.com/wp-content/uploads/2023/10/a09017eba28bd7aa86aab233458d80e9.jpg"
           },
           {
             "title": "Prusament filaments",
-            "url": "https://www.prusa3d.com/category/prusament/"
+            "url": "https://www.prusa3d.com/category/prusament/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -3288,7 +3319,8 @@
         "popularCategories": [
           {
             "title": "CORE One/+ INDX Conversion Kit",
-            "url": "https://www.prusa3d.com/category/core-one-indx-conversion-kit/"
+            "url": "https://www.prusa3d.com/category/core-one-indx-conversion-kit/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [
@@ -3548,20 +3580,29 @@
       "sidebar": {
         "popularCategories": [
           {
-            "title": "Original Prusa CORE One",
-            "url": "https://www.prusa3d.com/category/core-one/"
+            "title": "CORE One",
+            "url": "https://www.prusa3d.com/category/core-one/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
-            "title": "CORE One / CORE One+",
-            "url": "https://www.prusa3d.com/category/prusa-core-one-l/"
+            "title": "CORE XY",
+            "url": "https://www.prusa3d.com/category/corexy/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
-            "title": "CORE One, MK4S, MK4, MK3S/+",
-            "url": "https://www.prusa3d.com/category/core-one-mk4-mk3-s-mk2-5-s/"
+            "title": "CORE One Spare parts",
+            "url": "https://www.prusa3d.com/category/core-one-spare-parts/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           },
           {
-            "title": "CORE One Accessories & Sheets",
-            "url": "https://www.prusa3d.com/category/core-one-spare-parts/"
+            "title": "CORE One MMU3",
+            "url": "https://www.prusa3d.com/category/core-one-mmu3/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
+          },
+          {
+            "title": "Prusa CORE One/+/L",
+            "url": "https://www.prusa3d.com/category/prusa-core-one-l/",
+            "image": "https://www.prusa3d.com/img/eshop_og_image.jpg"
           }
         ],
         "trendingSearches": [

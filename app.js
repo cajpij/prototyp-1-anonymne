@@ -128,23 +128,24 @@
   // ===== Renderers =====
   const cls = (placeholder, extra = '') => placeholder ? `is-placeholder ${extra}`.trim() : extra;
 
-  function renderHighlighted(d) {
-    const h = d.highlighted;
-    if (!h) { $('#highlightedSection').hidden = true; return; }
-    $('#highlightedSection').hidden = false;
-    $('#highlightedTitle').textContent = h.title || '';
-    $('#highlightedTitle').className = cls(isPlaceholder);
-    $('#highlightedDesc').textContent = h.description || '';
-    $('#highlightedDesc').className = cls(isPlaceholder);
-    $('#highlightedBadges').innerHTML = (h.badges || [])
-      .map(b => `<span class="badge ${b.variant ? 'badge-' + b.variant : ''}">${b.text}</span>`)
-      .join('');
-    const viewBtn = $('#highlightedView');
-    if (viewBtn) {
-      viewBtn.href = prusaUrl(h, 'product');
-    }
-    const imgEl = $('#highlightedImg');
-    if (imgEl) imgEl.innerHTML = renderThumb(h, 'aspect-ratio--lg');
+  function renderCategories(d) {
+    const cats = (d.sidebar && d.sidebar.popularCategories) || [];
+    const wrap = $('#categoriesSection');
+    if (!wrap) return;
+    if (!cats.length) { wrap.hidden = true; return; }
+    wrap.hidden = false;
+    $('#categoriesList').innerHTML = cats.map(c => {
+      const href = escAttr(c.url || prusaUrl(c, 'product'));
+      const imgHtml = c.image
+        ? `<img src="${escAttr(c.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+        : `<span class="category-card__placeholder" aria-hidden="true">?</span>`;
+      return `
+        <a class="category-card" href="${href}" target="_blank" rel="noopener">
+          <div class="category-card__img">${imgHtml}</div>
+          <div class="category-card__title ${cls(isPlaceholder)}">${c.title}</div>
+        </a>
+      `;
+    }).join('');
   }
 
   function renderGoods(d) {
@@ -256,7 +257,7 @@
 
   function render(d) {
     renderTabs(d);
-    renderHighlighted(d);
+    renderCategories(d);
     renderGoods(d);
     renderList('#articleList', d.articles, '#articlesCount', 'article');
     renderList('#blogList',    d.blog,     '#blogCount',     'blog');
