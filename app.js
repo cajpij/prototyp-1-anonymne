@@ -46,6 +46,7 @@
   let DATA = null;
   let currentQuery = '';
   let isPlaceholder = true; // true → strikethrough placeholder content
+  let isEmpty = false;      // true → search returned no matches; show empty-state
 
   // ===== Boot =====
   fetch('data.json', { cache: 'no-cache' })
@@ -97,15 +98,20 @@
   function resolveQuery(q) {
     const key = (q || '').trim().toLowerCase();
     if (key && DATA.queries && DATA.queries[key]) {
-      return { data: DATA.queries[key], placeholder: false, matched: key };
+      return { data: DATA.queries[key], placeholder: false, matched: key, empty: false };
     }
-    return { data: DATA.default, placeholder: true, matched: null };
+    // Non-empty query with no match → empty-state. Empty input → placeholder fallback.
+    if (key) {
+      return { data: DATA.default, placeholder: false, matched: null, empty: true };
+    }
+    return { data: DATA.default, placeholder: true, matched: null, empty: false };
   }
 
   function applyQuery(q) {
     currentQuery = q;
-    const { data, placeholder } = resolveQuery(q);
+    const { data, placeholder, empty } = resolveQuery(q);
     isPlaceholder = placeholder;
+    isEmpty = !!empty;
 
     // Reflect in URL without reload
     const url = new URL(location);
@@ -116,7 +122,7 @@
     const input = $('#searchInput');
     if (input && input.value !== q) input.value = q;
     $('#queryEcho').textContent = q ? `"${q}"` : 'all products';
-    $('#resultCount').textContent = (data.totalResults ?? 0).toLocaleString();
+    $('#resultCount').textContent = (isEmpty ? 0 : (data.totalResults ?? 0)).toLocaleString();
 
     // Reflect in query switcher
     const sw = $('#querySwitcher');
@@ -246,12 +252,49 @@
   }
 
   function render(d) {
+    // Toggle empty-state vs normal sections
+    const empty = isEmpty;
+    $('#emptyState').hidden = !empty;
+    // Hide all normal main-col blocks when in empty state
+    document.querySelectorAll('.main-col > .block:not(.empty-block), .main-col > .cta-tell').forEach(el => {
+      el.hidden = empty;
+    });
+    if (empty) {
+      renderEmpty();
+      renderSidebar(d); // sidebar stays visible
+      return;
+    }
     renderTabs(d);
     renderCategories(d);
     renderGoods(d);
     renderList('#articleList', d.articles, '#articlesCount', 'article');
     renderList('#blogList',    d.blog,     '#blogCount',     'blog');
     renderSidebar(d);
+  }
+
+  function renderEmpty() {
+    const empty = DATA.empty || {};
+    $('#emptyNotice').textContent = empty.notice || 'No matches found for this search';
+    $('#emptyTips').innerHTML = (empty.tips || [])
+      .map(t => `<li>${t}</li>`).join('');
+    $('#emptyChips').innerHTML = (empty.popularSearches || [])
+      .map(p => `<button class="empty-chip" type="button" data-trend="${escAttr(p.query)}">${p.label}</button>`)
+      .join('');
+    const grid = $('#emptyBestsellers');
+    grid.innerHTML = (empty.bestsellers || []).map((p, i) => {
+      const href = escAttr(p.url || '#');
+      const thumb = p.image
+        ? `<div class="aspect-ratio aspect-ratio--1-1"><img class="aspect-ratio__img" src="${escAttr(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`
+        : `<div class="aspect-ratio aspect-ratio--1-1"><span class="aspect-ratio__placeholder" aria-hidden="true">?</span></div>`;
+      return `
+        <article class="product" data-idx="${i}">
+          <a class="product-link" href="${href}" target="_blank" rel="noopener" aria-label="${escAttr(p.name)}">
+            <div class="product-img">${thumb}</div>
+            <div class="product-title">${p.name}</div>
+          </a>
+        </article>
+      `;
+    }).join('');
   }
 
   // ===== Query switcher (top-right of search section) =====

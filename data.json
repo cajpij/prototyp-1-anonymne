@@ -3677,5 +3677,54 @@
         ]
       }
     }
+  },
+  "empty": {
+    "notice": "No matches found for this search",
+    "tips": [
+      "Adjust your search term or try similar words.",
+      "Try searching for a category instead.",
+      "Didn't find what you're looking for? Check out our bestsellers below."
+    ],
+    "popularSearches": [
+      {
+        "label": "Drybox",
+        "query": "drybox"
+      },
+      {
+        "label": "Nozzle",
+        "query": "nozzle"
+      },
+      {
+        "label": "Nextruder",
+        "query": "nextruder"
+      }
+    ],
+    "bestsellers": [
+      {
+        "name": "Prusa CORE One+ kit",
+        "url": "https://www.prusa3d.com/product/prusa-core-one-kit/",
+        "image": "https://www.prusa3d.com/content/images/product/94d5254c-e88b-46b1-9c13-20367b7e9b5a.jpg"
+      },
+      {
+        "name": "Prusa CORE One L",
+        "url": "https://www.prusa3d.com/product/prusa-core-one-l-2/",
+        "image": "https://www.prusa3d.com/content/images/product/e94d96e8-a2b4-4298-b3e8-c284a6c7b3de.jpg"
+      },
+      {
+        "name": "Original Prusa MK4S 3D Printer kit",
+        "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-kit/",
+        "image": "https://www.prusa3d.com/content/images/product/226b1536-4128-44d9-9c7c-50c4a8697957.jpg"
+      },
+      {
+        "name": "INDX 4-Tool Conversion Kit for CORE One/+",
+        "url": "https://www.prusa3d.com/product/indx-conversion-kit/",
+        "image": "https://www.prusa3d.com/content/images/product/96360096-2f02-404a-8d4f-8daa8c7f0629.jpg"
+      },
+      {
+        "name": "Original Prusa MK4S 3D Printer",
+        "url": "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer/",
+        "image": "https://www.prusa3d.com/content/images/product/7ee2b138-29c0-4ab4-94d1-7bac57740356.jpg"
+      }
+    ]
   }
 }

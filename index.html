@@ -88,6 +88,19 @@
 
       <div class="main-col">
 
+        <!-- Empty state — shown when query has no matching results in data.json -->
+        <section class="block empty-block" id="emptyState" hidden>
+          <h2 class="block-title">Goods</h2>
+          <div class="empty-notice" id="emptyNotice">No matches found for this search</div>
+          <ul class="empty-tips" id="emptyTips"></ul>
+
+          <h3 class="empty-sub">Popular searches</h3>
+          <div class="empty-chips" id="emptyChips"></div>
+
+          <h3 class="empty-sub">Bestsellers</h3>
+          <div class="goods-grid" id="emptyBestsellers"></div>
+        </section>
+
         <!-- Categories -->
         <section class="block block--categories" data-tab-content="all products" id="categoriesSection">
           <h2 class="block-title">Categories</h2>
