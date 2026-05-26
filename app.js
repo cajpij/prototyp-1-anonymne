@@ -216,8 +216,6 @@
     const s = d.sidebar || {};
     const cat   = s.popularCategories || [];
     const trend = s.trendingSearches  || [];
-    const util  = s.usefulLinks       || [];
-    const topi  = s.topics            || [];
 
     $('#sideCategories').innerHTML = cat.map(c => {
       const href = escAttr(prusaUrl(c, 'product'));
@@ -227,14 +225,6 @@
     $('#sideTrending').innerHTML = trend.map(t =>
       `<li><a href="#" data-trend="${t.label}">${trendIcon}<span class="${cls(isPlaceholder)}">${t.label}</span></a></li>`
     ).join('');
-    $('#sideUseful').innerHTML = util.map(c => {
-      const href = escAttr(prusaUrl(c, 'article'));
-      return `<li><a href="${href}" target="_blank" rel="noopener" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`;
-    }).join('');
-    $('#sideTopics').innerHTML = topi.map(c => {
-      const href = escAttr(prusaUrl(c, 'article'));
-      return `<li><a href="${href}" target="_blank" rel="noopener" class="${cls(isPlaceholder)}">${c.title} <span>›</span></a></li>`;
-    }).join('');
   }
 
   function renderTabs(d) {
