@@ -661,15 +661,10 @@ img { max-width: 100%; display: block; }
 .tab:hover .tab-ico { color: var(--fg); }
 .tab.active .tab-ico { color: var(--primary); }
 
-/* Green discount badge variant for the tab-count pill */
-.tab-count--discount {
-  background: var(--success-secondary);
-  color: var(--success-foreground);
-}
-.tab.active .tab-count--discount {
-  background: var(--success-secondary);
-  color: var(--success-foreground);
-}
+/* Spring Deal tab uses the DS Badge component (.badge.badge-success).
+   Override .tab.active rule which forces .tab-count colors so the success
+   badge keeps its green colors regardless of active state. */
+.tab .badge { padding: 1px 6px; }
 .tabs-spacer { flex: 1; }
 .filter-btn {
   background: var(--bg); border: var(--border-1) solid var(--line);
@@ -877,13 +872,17 @@ img { max-width: 100%; display: block; }
   line-height: var(--leading-xs);
   white-space: nowrap;
 }
-/* Variant classes kept for backwards compatibility — neutralized per user request. */
+/* Accent/warn/info variants neutralized per user request; success keeps the
+   Prusa DS green styling so it can be used as a discount/positive indicator. */
 .badge-accent,
-.badge-success,
 .badge-warn,
 .badge-info {
   background: var(--neutral-secondary);
   color: var(--fg);
+}
+.badge-success {
+  background: var(--success-secondary);
+  color: var(--success-foreground);
 }
 
 /* ============================================================ Buttons ============================================================ */
