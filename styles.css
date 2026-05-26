@@ -655,6 +655,21 @@ img { max-width: 100%; display: block; }
   line-height: var(--leading-xs);
 }
 .tab.active .tab-count { background: var(--secondary); color: var(--primary); }
+
+/* Inline icon inside a tab (used by Spring Deal) */
+.tab-ico { color: var(--fg-muted); flex-shrink: 0; }
+.tab:hover .tab-ico { color: var(--fg); }
+.tab.active .tab-ico { color: var(--primary); }
+
+/* Green discount badge variant for the tab-count pill */
+.tab-count--discount {
+  background: var(--success-secondary);
+  color: var(--success-foreground);
+}
+.tab.active .tab-count--discount {
+  background: var(--success-secondary);
+  color: var(--success-foreground);
+}
 .tabs-spacer { flex: 1; }
 .filter-btn {
   background: var(--bg); border: var(--border-1) solid var(--line);
